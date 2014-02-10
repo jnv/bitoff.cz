@@ -5,7 +5,7 @@
 
 
 html {
-  font: normal 112.5%/1.65 serif; /* base font size 18px with 1.65 line-height */
+  font: normal 112.5%/1.65 Helvetica Neue, Helvetica, Arial, sans-serif; /* base font size 18px with 1.65 line-height */
 }
 
 
@@ -20,8 +20,6 @@ html {
 body {
   background-color: #fff;
   color: #444;
-
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -176,6 +174,7 @@ ul, ol {
 .site-footer a {
   margin-right: 1em;
   color: #aaa;
+  text-decoration: none;
 }
 
 /****************************
