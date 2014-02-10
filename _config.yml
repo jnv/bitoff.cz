@@ -1,3 +1,20 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+name: bit off
+
+safe: true
+exclude: [Gemfile, Gemfile.lock, Guardfile]
+timezone: Europe/Prague
+
+permalink:     date
+paginate_path: 'page:num'
+
+pygments:    true
+markdown:    kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_input
+  toc_levels: 1..2
+  smart_quotes: sbquo,lsquo,bdquo,ldquo
+  header_offset: 1
+  parse_block_html: true
+  # transliterated_header_ids: true
