@@ -4,7 +4,7 @@ safe: true
 exclude: [Gemfile, Gemfile.lock, Guardfile]
 timezone: Europe/Prague
 
-permalink:     date
+permalink: :title/
 paginate_path: 'page:num'
 
 pygments:    true
