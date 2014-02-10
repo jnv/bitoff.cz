@@ -17,4 +17,4 @@ The look is inspired by [mnmlist](http://mnmlist.com/).
 
 ## License
 
-Unless specified otherwise, the code and the content was dedicated to public domain under [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/).
+Unless specified otherwise, the code and the content was dedicated to the Public Domain under [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/).
