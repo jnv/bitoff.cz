@@ -1,4 +1,5 @@
 name: bit off
+url: http://bitoff.cz
 
 safe: true
 exclude: [Gemfile, Gemfile.lock, Guardfile, README.md]
@@ -11,7 +12,6 @@ pygments:    true
 markdown:    kramdown
 kramdown:
   auto_ids: true
-  footnote_nr: 1
   entity_output: as_input
   toc_levels: 1..2
   smart_quotes: sbquo,lsquo,bdquo,ldquo

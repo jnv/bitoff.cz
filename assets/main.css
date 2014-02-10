@@ -10,7 +10,7 @@ html {
   font: normal 100.1%/1.65 Helvetica Neue, Helvetica, Arial, sans-serif; /* base font size 16px with 1.65 line-height */
 }
 
-@media (min-width: 21em)
+@media (min-width: 25em)
 {
   html {
     font-size: 112.5%; /* shift up to 18px */
@@ -95,13 +95,18 @@ h4 {
 
 
 p {
-  margin: auto auto 1.5em; /* bottom margin for paragraphs */
+  margin: auto auto 1em; /* bottom margin for paragraphs */
 }
 
-p + p {
-  text-indent: 1.5em; /* indent subsequent paragraphs */
-  margin-top: -1.5em; /* no top margin on subsequent paragraphs */
+img {
+  max-width: 100%;
 }
+
+/*
+p + p {
+  text-indent: 1.5em;
+  margin-top: -1.5em;
+}*/
 
 abbr,
 acronym,
