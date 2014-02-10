@@ -3,9 +3,15 @@
  * http://typeplate.com
  */
 
-
 html {
-  font: normal 112.5%/1.65 Helvetica Neue, Helvetica, Arial, sans-serif; /* base font size 18px with 1.65 line-height */
+  font: normal 100.1%/1.65 Helvetica Neue, Helvetica, Arial, sans-serif; /* base font size 16px with 1.65 line-height */
+}
+
+@media (min-width: 21em)
+{
+  html {
+    font-size: 112.5%; /* shift up to 18px */
+  }
 }
 
 
@@ -21,6 +27,9 @@ body {
   background-color: #fff;
   color: #444;
 
+  margin: 0;
+  padding: 2em 1.5em 3em;
+
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -33,11 +42,11 @@ a {
   color: #000;
   text-decoration: underline;
 }
-a:hover {
-  color: #000;
-}
 a:visited {
   color: #555;
+}
+a:hover, a:focus {
+  color: #666;
 }
 
 
@@ -150,8 +159,8 @@ ul, ol {
 /*****************************************************************************/
 
 .site {
-  max-width: 42em;
-  margin: 3em auto 2em;
+  max-width: 40em;
+  margin: 0 auto;
 }
 
 .meta {
@@ -160,6 +169,7 @@ ul, ol {
 
 .posts {
   list-style: none;
+  line-height: 2;
 }
 
 .posts {
@@ -167,12 +177,12 @@ ul, ol {
 }
 
 .site-footer {
-  margin-top: 2rem;
+  margin-top: 2em;
   text-transform: lowercase;
 }
 
 .site-footer a {
-  margin-right: 1em;
+  margin-right: 2em;
   color: #aaa;
   text-decoration: none;
 }
