@@ -1,7 +1,7 @@
 name: bit off
 
 safe: true
-exclude: [Gemfile, Gemfile.lock, Guardfile]
+exclude: [Gemfile, Gemfile.lock, Guardfile, README.md]
 timezone: Europe/Prague
 
 permalink: :title/
