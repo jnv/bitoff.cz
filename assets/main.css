@@ -293,8 +293,15 @@ figure img, .figure img {
   margin: 0 auto;
 }
 
-.site-intro {
-  text-indent: -1.5em;
+@media only screen and (min-width: 35em) {
+  .site-intro, .site-header {
+    text-indent: -1em;
+  }
+}
+
+.site-header {
+  /*font-size: 0.76em;*/
+  margin-bottom: 0.875em;
 }
 
 .meta {
