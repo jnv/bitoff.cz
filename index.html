@@ -5,10 +5,13 @@ is_home: true
 ---
 
 <main class="home">
-  <p><strong lang="en">Bit off</strong> jsou zápisky lehce mimo, které píše <a href="http://jan.vlnas.cz/" rel="me">Jan Vlnas</a>.</p>
+  <p class="site-intro"><strong lang="en">bit off</strong> jsou zápisky lehce mimo, které píše <a href="http://jan.vlnas.cz/" rel="me">Jan Vlnas</a>.</p>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><time class="dt-published" datetime="{{ post.date | date_xmlschema}}">{{ post.date | date: "%-d. %-m. %Y" }}</time> &ndash; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+      <time class="dt-published" datetime="{{ post.date | date_xmlschema}}">{{ post.date | date: "%-d. %-m. %Y" }}</time>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
     {% endfor %}
   </ul>
 </main>
