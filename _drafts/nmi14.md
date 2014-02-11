@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Decentralizovaná budoucnost sociálních médií (NMI14)"
-date:   2014-02-10 10:00:00
+date:   2014-02-11 23:00:00
 dependencies: |
   <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
-_Upravený text z přednášky na [New Media Inspiration 2014](http://www.tuesday.cz/akce/new-media-inspiration-2014/). Pokud jste přednášku viděli, mám k tématu ještě [pár dodatků](#addendum)_
+_Upravený text z přednášky na [New Media Inspiration 2014](http://www.tuesday.cz/akce/new-media-inspiration-2014/). Pokud je na vás text moc dlouhý, [projděte si slidy](http://www.slideshare.net/janvlnas/decentralizovana-sm)_
 
 <section>
 
 <section>
-Pravděpodobně jste zaznamenali, že Facebook letos, 4. února, oslavil deset let existence. Za tu dobu se ze seznamky pro vysokoškoláky stala globální komunikační platforma, kterou používá [více než sedmina lidstva](http://investor.fb.com/releasedetail.cfm?ReleaseID=821954).
+Pravděpodobně jste zaznamenali, že Facebook letos, 4. února, oslavil deset let existence. Za tu dobu se ze seznamky pro vysokoškoláky stala globální komunikační platforma, kterou používá [více než sedmina lidstva](http://www.lupa.cz/clanky/facebook-miliarda-uzivatelu/).
 
 Náš vztah s Facebookem je… komplikovaný. Je skvělé mít jedno místo, které nám zprostředkovává kontakt se všemi přáteli, ale nelíbí se nám, jak Facebook samotný zasahuje do našeho soukromí a uzurpuje si kontrolu nad našimi daty.
 
@@ -44,7 +44,7 @@ Dobrý způsob, jak je přinutit, představuje personalizovaná reklama. K tomu 
 
 <figure>
 <blockquote class="twitter-tweet" lang="en">
-<p>i love to wake up every morning and engage with my favorite <a href="https://twitter.com/search?q=%23brands&amp;src=hash">#brands</a> online!!!!!!!! fucccccck yeahhhhh!!!</p>
+i love to wake up every morning and engage with my favorite <a href="https://twitter.com/search?q=%23brands&amp;src=hash">#brands</a> online!!!!!!!! fucccccck yeahhhhh!!!
 <footer>
 <p><cite>jon hendren (@fart), <a href="https://twitter.com/fart/statuses/429654902898315265">February 1, 2014</a></cite></p>
 </footer>
@@ -60,13 +60,13 @@ Před sedmi lety uvedl [Facebook Beacon](http://en.wikipedia.org/wiki/Facebook_B
 <section>
 # Federalizované sítě
 
-Rok 2010 byl vůbec zajímavý. Byl vyhlášen oficiální [Den, kdy skončíme s Facebookem](http://www.quitfacebookday.com/); v době realizace se zavázalo asi 33000 lidí. A antifacebooková nálada ve společnosti vynesla do popředí [projekt Diaspora](https://diasporafoundation.org/).
+Rok 2010 byl vůbec zajímavý. Byl vyhlášen oficiální [Den, kdy skončíme s Facebookem](http://www.quitfacebookday.com/); v době realizace se zavázalo asi 33 000 lidí. A antifacebooková nálada ve společnosti vynesla do popředí [projekt Diaspora](https://diasporafoundation.org/).
 
 ## Diaspora
 
 Čtyři studenti z New York University se rozhodli, že vytvoří otevřenou, decentralizovanou alternativu Facebooku. Neměli ještě ani řádku kódu, a přesto měli [profil v New York Times](http://www.nytimes.com/2010/05/12/nyregion/12about.html).[^diaspora]
 
-Namísto plánovaných 10 000 dolarů se jim [na Kickstarteru](https://www.kickstarter.com/projects/mbs348/diaspora-the-personally-controlled-do-it-all-distr) podařilo získat 200 000 dolarů a údajně [přispěl i Mark Zuckerberg](http://www.wired.com/business/2010/05/zuckerberg-interview/).
+Namísto plánovaných 10 000 dolarů se jim [na Kickstarteru](https://www.kickstarter.com/projects/mbs348/diaspora-the-personally-controlled-do-it-all-distr) podařilo získat 200 000 dolarů a údajně [přispěl i Mark Zuckerberg](http://www.wired.com/business/2010/05/zuckerberg-interview/).
 
 * * *
 
@@ -104,7 +104,7 @@ V roce 2010 vznikl ještě jiný projekt, bez většího zájmu médií: [Friend
 Friendica není tak konzervativní jako Diaspora. Je extrémně konfigurovatelná, extrémně rozšiřitelná a… extrémně nepoužitelná.
 Nicméně můžete si zapnout tlačítko „Dislike“ a propojit se i s uživateli Diaspory.
 
-Podle [statistiky z roku 2012](http://diekershoff.de/tobias/2012-11-27/friendica-the-network-as-of-today) bylo v síti 6 200 veřejných profilů a přes 700 serverů.
+Podle [statistiky z roku 2012](http://diekershoff.de/tobias/2012-11-27/friendica-the-network-as-of-today) bylo v síti 6 200 veřejných profilů a přes 700 serverů.
 To mimo jiné souvisí s tím, že zprovoznit si vlastní server je v případě Friendicy mnohem jednodušší než u Diaspory.
 
 Autor Friendicy v současnosti pracuje na následníkovi, který nese název [Red Matrix](http://redmatrix.me/). Nebo Zot. Nepodařilo se mi jednoznačně určit, co je co.
@@ -247,8 +247,9 @@ Chci vás proto odkázat na projekt [Redecentralize](http://redecentralize.org/)
 
 # Zdroje
 
-* https://github.com/redecentralize/alternative-internet
-* http://en.wikipedia.org/wiki/Comparison_of_software_and_protocols_for_distributed_social_networking
+* Seznam [_Alternativní Internet_](https://github.com/redecentralize/alternative-internet), který byl pro mě hlavním zdrojem zajímavých projektů.
+* [Specializovaný seznam distribuovaných sociálních sítí](http://en.wikipedia.org/wiki/Comparison_of_software_and_protocols_for_distributed_social_networking). Řada zde zmíněných projektů je však nefunkčních.
+* Další zdroje naleznete v mých chaotických sbírkách výstřižků: [Soukromí & sociální média](http://keeeb.com/jnv/privacy___social_media/) a [Decentralize](http://keeeb.com/jnv/decentralize/) s tématikou (de)centralizovaných služeb.
 
 [^diaspora]: Diaspora nepřišla s ničím novým, projekty se stejným cílem [existovaly dlouho předtím](http://www.pcworld.com/article/197602/Facebook_replacement.html) – například projekt Appleseed (nyní ukončený) existoval od roku 2004. Dobré načasování, obstojný marketing a crowdfunding (tehdy ještě nová věc) daly Diaspoře výborný start – a vlastně to projekt [odsoudilo k neúspěchu](http://signalvnoise.com/posts/2330-diasporas-curse).
 
