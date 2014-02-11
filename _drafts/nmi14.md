@@ -6,7 +6,7 @@ dependencies: |
   <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
-_Upravený text z přednášky na [New Media Inspiration 2014](http://www.tuesday.cz/akce/new-media-inspiration-2014/). Pokud je na vás text moc dlouhý, [projděte si slidy](http://www.slideshare.net/janvlnas/decentralizovana-sm)_
+_Upravený text z přednášky na [New Media Inspiration 2014](http://www.tuesday.cz/akce/new-media-inspiration-2014/). Pokud je na vás text moc dlouhý, [projděte si slidy](http://www.slideshare.net/janvlnas/decentralizovana-sm)._
 
 <section>
 

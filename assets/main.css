@@ -276,6 +276,14 @@ figure img, .figure img {
   font-size: 0.76em;
 }
 
+.footnotes:before {
+  display: block;
+  content: " ";
+  width: 20%;
+  margin: 2em auto;
+  border-top: 1px solid #ddd;
+}
+
 /*****************************************************************************/
 /* Site
 /*****************************************************************************/
