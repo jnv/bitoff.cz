@@ -2,13 +2,15 @@
 layout: post
 title:  "Decentralizovaná budoucnost sociálních médií (NMI14)"
 date:   2014-02-10 10:00:00
+dependencies: |
+  <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 _Upravený text z přednášky na [New Media Inspiration 2014](http://www.tuesday.cz/akce/new-media-inspiration-2014/). Pokud jste přednášku viděli, mám k tématu ještě [pár dodatků](#addendum)_
 
 <section>
-<section>
 
+<section>
 Pravděpodobně jste zaznamenali, že Facebook letos 4. února oslavil deset let existence. Za tu dobu se ze seznamky pro vysokoškoláky stala globální komunikační platforma kterou používá [více jak sedmina lidstva](http://investor.fb.com/releasedetail.cfm?ReleaseID=821954).
 
 Náš vztah s Facebookem je… komplikovaný. Je skvělé mít jedno místo, kde můžeme mít kontakt se všemi přáteli, ale nelíbí se nám, jak Facebook samotný zasahuje do našeho soukromí a uzurpuje si kontrolu nad našimi daty.
@@ -16,10 +18,10 @@ Náš vztah s Facebookem je… komplikovaný. Je skvělé mít jedno místo, kde
 Své o tom vypovídá i [evoluce soukromí na Facebooku](http://mattmckeon.com/facebook-privacy/). Od roku 2005 do roku 2010 se výchozí nastavení soukromí změnilo do té míry, že vlastně žádné soukromí nemáte. Jistě, jedná se o výchozí hodnoty které můžete změnit, ale některé informace, jako vaší fotku či co "lajkujete" si skrýt nemůžete.
 
 <figure id="s7">
-  <blockquote class="blockquote" lang="en">
+  <blockquote lang="en">
   People have really gotten comfortable not only sharing more information and different kinds, but more openly and with more people. That social norm is just something that has evolved over time.
   <footer>
-  <cite>Mark Zuckerberg, [Facebook's Zuckerberg Says The Age of Privacy is Over](http://readwrite.com/2010/01/09/facebooks_zuckerberg_says_the_age_of_privacy_is_ov)</cite>
+  <cite>Mark Zuckerberg, [Facebook's Zuckerberg Says The Age of Privacy is Over](http://readwrite.com/2010/01/09/facebooks_zuckerberg_says_the_age_of_privacy_is_ov)</cite>
   </footer>
   </blockquote>
 </figure>
@@ -32,7 +34,7 @@ Samozřejmě ne, v první řadě jde jen o peníze. Protože za dvacet let exist
 Trefně to vyjádřil matematik Jeff Hammerbacher:
 
 <blockquote class="blockquote">
-  Nejlepší mozky mé generace řeší, jak lidi donutit klikat na reklamy.
+  Nejlepší mozky mé generace řeší, jak lidi donutit klikat na reklamy.
   <footer>
   <cite lang="en">Jeff Hammerbacher, [This Tech Bubble Is Different](http://www.businessweek.com/magazine/content/11_17/b4225060960537.htm)</cite>
   </footer>
@@ -40,10 +42,14 @@ Trefně to vyjádřil matematik Jeff Hammerbacher:
 
 Dobrý způsob jak je přinutit je personalizovaná reklama. K tomu však potřebujete aby uživatelé o sobě sdíleli co nejvíce informací. A za to se pak mohou lépe spojit se svými oblíbenými značkami.
 
+<figure>
 <blockquote class="twitter-tweet" lang="en">
-<p>i love to wake up every morning and engage with my favorite <a href="https://twitter.com/search?q=%23brands&amp;src=hash">#brands</a> online!!!!!!!! fucccccck yeahhhhh!!!</p>&mdash; jon hendren (@fart) <a href="https://twitter.com/fart/statuses/429654902898315265">February 1, 2014</a>
+<p>i love to wake up every morning and engage with my favorite <a href="https://twitter.com/search?q=%23brands&amp;src=hash">#brands</a> online!!!!!!!! fucccccck yeahhhhh!!!</p>
+<footer>
+<p><cite>jon hendren (@fart), <a href="https://twitter.com/fart/statuses/429654902898315265">February 1, 2014</a></cite></p>
+</footer>
 </blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</figure>
 
 A jestli je v něčem Facebook inovativní, je to právě vytěžování dat a distribuce reklamy.
 
@@ -102,7 +108,9 @@ To mimo jiné souvisí s tím, že zprovoznit si vlastní server je v případě
 Autor Friendicy v současnosti pracuje na pokračovateli, který nese název [Red Matrix](http://redmatrix.me/). Nebo Zot. Nepodařilo se mi jednoznačně určit co je co.
 Nicméně vedlejším produktem vývoje je ohromné množství těchto obrázků, takže se máme ještě na co těšit.
 
+<div class="figure">
 [![Mark Zuckerberg + NSA = Not Got Zot.](/img/nmi14/zot.jpg)](https://zothub.com/photos/mike/image/f991a64fc9cf73677d640dff4d6a6ff8)
+</div>
 
 ## Buddycloud
 
@@ -170,13 +178,17 @@ Všechny úvahy nad federalizovanými sítěmi jsou fajn dokud jste doma v teple
 
 V případě Arabského jara bývá často zdůrazňovaná [nezastupitelná role sociálních médií](http://www.fastcompany.com/1722492/how-social-media-accelerated-uprising-egypt). I pokud tato tvrzení akceptujete a myslíte si, že by sociální média mohla sloužit pro organizaci protestů a předávání informací, je zde stále jeden zásadní problém:
 
+<div class="figure">
 [![Provoz Internetu z/do Egypta mezi 27. a 28. lednem 2011. V 17.20 byl provoz náhle přerušen se všemi 80 poskytovateli připojení.](http://farm5.staticflickr.com/4097/5395495035_98541df2ce.jpg)](http://flic.kr/p/9dMjGt)
+</div>
 
 Pokud vláda odpojí Internet, odpojí vás od Twitteru. A federalizované sítě řeší problém jen částečně, protože mají stále centrální bod selhání.
 
 # Distribuované sítě
 
+<figure>
 ![V distribuované síti se členové volně propojují mezi sebou bez centrálního serveru](/img/nmi14/3distributed.png)
+</figure>
 
 Co potřebujete je distribuovaná síť. Data se replikují mezi členy sítě, takže je obtížné zastavit šíření informací.
 Tak funguje například BitTorrent.
@@ -206,22 +218,37 @@ Jakmile jste v síti, můžete chatovat, sdílet soubory a telefonovat. V rámci
 
 A pokud nemáte ani elektřinu? Pak vám zbývá nejspíš jen holubí pošta.
 
+<figure>
 [![Pojízdný holubník pro přepravu poštovních holubů za 1. světové války](/img/nmi14/bus-pigeon-loft.jpg)](http://commons.wikimedia.org/wiki/File:Bus_pigeon_loft.jpg)
+</figure>
 
 </section>
 
 <section>
 
+# Potřebujeme prostředníky?
 
+Když se řekne "sociální média," zpravidla si vybavíme konkrétní značky, řešíme co aplikace A má za funkce navíc oproti aplikaci B.
+Ale podstata těchto médií zůstává stejná: neomezená komunikace s lidmi. Známými, neznámými, v reálném čase či asynchronně.
+
+Zvykli jsme si komunikovat přes prostředníky jako je Facebook a Twitter, přitom zde zmíněné a další projekty dokazují, že prostředníky nepotřebujeme nebo jejich dopad můžeme minimalizovat. Srovnat je na úroveň alternativ.
+
+Řada podobných projektů už zanikla a pravděpodobně zaniknou i některé z těchto.
+Autoři jsou většinou nadšenci, kteří nehledají slávu nebo peníze, chtějí nabídnout světu nové způsoby komunikace. Jejich nadšení však většinou vyprchá, bez investorů, bez reportáží na Mashable a bez IPO zůstanou tyto projekty zajímavým pokusem, který nikdy nenašel uplatnění -- a to je škoda.
+
+Minimum které můžeme udělat je, že budeme těmto projektům věnovat trochu více pozornosti, než [dietě Marka Zuckerberga](http://mashable.com/2011/05/27/mark-zuckerberg-eats-kills/) a [ukradeným účtům známých osobností](http://www.lupa.cz/clanky/potvrzeno-top-09-prisla-o-ucet-karla-schwarzenberga-na-twitteru/) na Twitteru.
+
+Chci vás proto odkázat na projekt [Redecentralize](http://redecentralize.org/), kde se dozvíte více.
 
 </section>
 
 </section>
-# Addendum
 
-## Další myšlenkové linie
+## Zdroje
 
-## Na koho se nedostalo
+* https://github.com/redecentralize/alternative-internet
+* http://en.wikipedia.org/wiki/Comparison_of_software_and_protocols_for_distributed_social_networking
+* http://indiewebcamp.com/
 
 [^twitter]: Což nebylo jediné východisko. Mnozí se zabývali [myšlenkou decentralizovaného Twitteru](http://scripting.com/stories/2008/01/16/aDecentralizedTwitter.html) i jako řešení problémů se škálováním. [Alex Payne popsal](https://al3x.net/2010/09/15/last-thing-about-twitter.html), že část zaměstnanců chtěla oddělit "twitter" jako médium od "Twitteru" jako společnosti. Twitter sám se mohl stát decentralizovanou platformou.
 
