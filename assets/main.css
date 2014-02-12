@@ -236,7 +236,7 @@ hr {
   width: 20%;
   margin: 2em auto;
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #aaa;
 }
 
 /*******************
@@ -245,7 +245,13 @@ hr {
 
 figure,
 blockquote {
-  margin: 1.5em 2em;
+  margin: 1.5em 1em;
+}
+
+@media only screen and (min-width: 35em) {
+  figure, blockquote {
+    margin: 1.5em 2em;
+  }
 }
 
 figure > blockquote {
@@ -271,17 +277,16 @@ figure img, .figure img {
   content: "—";
 }*/
 
-.footnotes {
+/*.footnotes {
   margin-top: 3em;
-  font-size: 0.76em;
-}
+}*/
 
 .footnotes:before {
   display: block;
   content: " ";
-  width: 20%;
+  width: 40%;
   margin: 2em auto;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #aaa;
 }
 
 /*****************************************************************************/
