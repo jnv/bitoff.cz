@@ -248,6 +248,11 @@ blockquote {
   margin: 1.5em 1em;
 }
 
+figure.full {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 @media only screen and (min-width: 35em) {
   figure, blockquote {
     margin: 1.5em 2em;
@@ -271,6 +276,22 @@ blockquote footer {
 figure img, .figure img {
   display: block;
   margin: 0 auto;
+}
+
+.embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed iframe, .embed object {
+  width: 100%; height: 100%;
+  position: absolute;
+  top: 0; left: 0;
 }
 
 /*blockquote footer cite:before {
