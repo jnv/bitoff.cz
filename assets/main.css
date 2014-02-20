@@ -345,6 +345,9 @@ figure img, .figure img {
 
 }
 
-.post-header h1 {
+.post-title {
+  margin-bottom: 0;
+}
+.post-subtitle {
   margin-bottom: 0;
 }
