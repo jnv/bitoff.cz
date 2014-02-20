@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<p class="site-header"><a href="/" title="Přejít na hlavní stránku">bit off</a></p>
+<p class="site-header"><a href="/" title="Přejít na hlavní stránku" rel="home">bit off</a></p>
 <main class="post">
   <article class="h-entry">
     <header class="post-header">
       <h1 class="p-name">{{ page.title }}</h1>
-      <p class="meta"><time class="dt-published" datetime="{{ page.date | date_xmlschema}}">{{ page.date | date: "%-d. %-m. %Y" }}</time></p>
+      <p class="meta"><time class="dt-published" datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%-d. %-m. %Y" }}</time></p>
     </header>
     <div class="e-content post-content">
       {{ content }}

@@ -7,9 +7,6 @@
   <meta name="viewport" content="width=device-width">
   <link rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
   <link rel="author" href="http://jan.vlnas.cz/">
-  <!-- syntax highlighting CSS -->
-  <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
-
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
 </head>
@@ -19,9 +16,9 @@
     {{ content }}
     <footer class="site-footer">
       <nav>
-        {% if page.url != "/index.html" %}<a href="/">více</a>{% endif %}
-        <a href="/feed.xml" rel="alternate">RSS</a>
-        <a href="https://github.com/jnv/bitoff.cz">kód</a>
+        {% if page.url != "/index.html" %}<a href="/" rel="home">více</a>{% endif %}
+        <a href="/feed.xml" rel="alternate home">RSS</a>
+        <a href="https://github.com/jnv/bitoff.cz" rel="source">kód</a>
       </nav>
     </footer>
   </div>
