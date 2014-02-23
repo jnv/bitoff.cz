@@ -184,6 +184,17 @@ sub {
   bottom: -0.25em;
 }
 
+q {
+  quotes: '„' '“' '‚' '‘';
+  font-style: italic;
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
+
 
 p {
   margin: auto auto 1.5em; /* bottom margin for paragraphs */
@@ -239,6 +250,17 @@ hr {
   border-top: 1px solid #aaa;
 }
 
+table {
+  border-collapse: collapse;
+  margin-bottom: 0.875em;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.2em 0.3em;
+  text-align: left;
+}
+
 /*******************
  Quotes, Figures et al.
  *******************/
@@ -251,6 +273,10 @@ blockquote {
 figure.full {
   margin-left: 0;
   margin-right: 0;
+}
+
+figcaption {
+  font-style: italic;
 }
 
 @media only screen and (min-width: 35em) {
