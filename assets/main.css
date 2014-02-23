@@ -46,7 +46,7 @@ html {
 @media only screen and (min-width: 49em)
 {
   html {
-    font-size: 1.3125em;  /*shift up to 18px*/
+    font-size: 1.3125em;  /*shift up to 21px*/
   }
 }
 
@@ -256,9 +256,20 @@ table {
 }
 
 td, th {
+  font-size: 1em;
   border: 1px solid #999;
-  padding: 0.2em 0.3em;
   text-align: left;
+  line-height: 1.2;
+}
+
+thead th {
+  vertical-align: bottom;
+}
+
+@media only screen and (min-width: 35em) {
+  td, th {
+    padding: 0.2em 0.3em;
+  }
 }
 
 /*******************
