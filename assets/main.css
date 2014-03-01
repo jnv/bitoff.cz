@@ -229,6 +229,10 @@ img {
   max-width: 100%;
 }
 
+iframe {
+  border: 0;
+}
+
 ul, ol {
   list-style-position: outside;
   margin: 0.875em 0;
