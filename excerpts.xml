@@ -15,7 +15,6 @@ title: RSS feed s úryvky
         <description>
           {% include feed_subtitle.html %}
           {{ post.excerpt | xml_escape }}
-          &lt;p&gt;&lt;a href="{{ site.url }}{{ post.url }}"&gt;Celý článek&lt;/a&gt;&lt;/p&gt;
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
