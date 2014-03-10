@@ -2,7 +2,7 @@ name: bit off
 url: http://bitoff.cz
 author: Jan Vlnas
 author_uri: http://jan.vlnas.cz/
-tag_uri: "tag:bitoff.cz,2013-03-10:"
+tag_uri: "tag:bitoff.cz,2014-03-10:"
 safe: true
 exclude: [Gemfile, Gemfile.lock, Guardfile, README.md]
 timezone: Europe/Prague
