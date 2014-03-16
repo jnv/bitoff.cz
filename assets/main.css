@@ -286,7 +286,8 @@ blockquote {
   margin: 1.5em 1em;
 }
 
-figure.full {
+figure.full,
+figure figure {
   margin-left: 0;
   margin-right: 0;
 }
@@ -299,6 +300,10 @@ figcaption {
   figure, blockquote {
     margin: 1.5em 2em;
   }
+}
+
+figure p {
+  margin: 0;
 }
 
 figure > blockquote {
@@ -315,9 +320,12 @@ blockquote footer {
   text-align: right;
 }
 
-figure img, .figure img {
+figure img,
+.figure img,
+figure svg {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .embed {
