@@ -340,9 +340,7 @@
   var loadChart = function()
   {
     var target = this;
-    console.log(target);
     // target.textContent = 'Loading&hellip;';
-    console.log(target.innerHtml);
 
     var dataSrc = target.getAttribute('data-src'),
       w = target.getAttribute('data-w'),
