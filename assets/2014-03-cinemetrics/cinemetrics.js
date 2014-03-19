@@ -7,12 +7,12 @@
 {
   'use strict';
 
-  //http://bl.ocks.org/mbostock/4341417
+  // Based on http://bl.ocks.org/mbostock/4341417
 
   (function()
   {
     /**
-     * Generates radial isosceles trapezoid - like arc, bud with straight bases
+     * Generates radial isosceles trapezoid - like arc, but with straight bases
      * Based on d3.svg.arc
      * https://github.com/mbostock/d3/blob/master/src/svg/arc.js
      */
