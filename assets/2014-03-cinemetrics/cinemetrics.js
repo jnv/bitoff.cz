@@ -293,7 +293,7 @@
       (function repeat()
       {
         segment.transition()
-          .ease('linear')
+          .ease('quad')
           .duration(duration)
           .attrTween('d', tweenTrapezoid(function(d, i)
           {
