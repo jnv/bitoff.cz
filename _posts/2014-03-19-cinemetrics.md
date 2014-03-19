@@ -66,7 +66,7 @@ Zde rozdíl mezi světelnou (ne)vyvážeností obou filmů bije do očí. Přito
 Postupnou redukcí informací se můžeme od zdrojového materiálu vzdálit na tolik, až nám zůstane jen pouhý záblesk původního díla. Některé projekty se zabývají právě vytvořením takového "perceptuálního hashe," otisku, který film jednoznačně identifikuje. Ten může něco říct o obsahu filmu, ale současně třeba umožní jeho porovnání s dalšími díly.
 
 <section>
-## Moviebarcode -- Film jako čárový kód
+## Moviebarcode: Film jako čárový kód
 
 Velice jednoduchý systém představuje [moviebarcode](http://moviebarcode.tumblr.com/). Snímky filmu se zredukují na jeden pixel široké proužky, čímž vznikne barevný "čárový kód." Ačkoli nenese mnoho informací o původním díle, jedná se o poměrně efektní a nenáročnou vizualizaci. K tomu existuje řada open-source implementací (já jsem použil [tento skript](https://github.com/mckelvin/moviebarcode) -- ano, má čínský manuál a ne, není v něm nic důležitého).
 
