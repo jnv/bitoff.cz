@@ -106,7 +106,7 @@ Slitscan záběru z <cite lang="en">The Girl With the Dragon Tattoo</cite> (2011
 </figcaption>
 </figure>
 
-Já jsem však záběry po automatickém zpracování netřídil, nebylo to zapotřebí. Sběr dat už neřeší samotnou vizualizaci; výstupem může být plakát či interaktivní animace -- k tomu autor vytvořil zajímavou aplikaci, kterou už však nezveřejnil. Tak jsem si jím navržený systém vizualizace napsal s použitím knihovny [D3](http://d3js.org/).
+Já jsem však záběry po automatickém zpracování netřídil, nebylo to zapotřebí. Sběr dat už neřeší samotnou vizualizaci; výstupem může být plakát či interaktivní animace -- k tomu autor vytvořil zajímavou aplikaci, kterou už však nezveřejnil. Tak jsem si jím navržený systém vizualizace implementoval s použitím knihovny [D3](http://d3js.org/).
 
 <figure class="full" id="cm-viz">
 <figcaption>
