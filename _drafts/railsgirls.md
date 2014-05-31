@@ -144,7 +144,9 @@ Příručku bychom proto rádi přeložili a současně zlepšili její formáto
 
 ## Windows 8 mají problém JavaScriptem
 
-Většina účastnic používá Windows, kde jsme vývojové prostředí řešili přes [RailsInstaller](http://railsinstaller.org/). Na Windows 8 nás však čekalo nemilé překvapení, aplikace havarovala na [nedostupnosti interpreta JavaScriptu](http://stackoverflow.com/questions/12520456/execjsruntimeerror-on-windows-trying-to-follow-rubytutorial). *Korektní* řešení je oprava ExecJS, na kterou [čekáme už dva roky](https://github.com/sstephenson/execjs/issues/81). *Jednoduché* řešení je odstranit ze souboru `app/assets/application.js` řádku `//= require_tree .`
+Většina účastnic používá Windows, kde jsme vývojové prostředí řešili přes [RailsInstaller](http://railsinstaller.org/). Na Windows 8 nás však čekalo nemilé překvapení, aplikace havarovala na [nedostupnosti interpreta JavaScriptu](http://stackoverflow.com/questions/12520456/execjsruntimeerror-on-windows-trying-to-follow-rubytutorial). *Korektní* řešení je oprava ExecJS, na kterou [čekáme už dva roky](https://github.com/sstephenson/execjs/issues/81). *Jednoduché* řešení je odstranit ze souboru `app/assets/application.js` řádku:
+
+    //= require_tree .
 
 Anebo nainstalovat [Node.js](http://www.nodejs.org/).
 
@@ -163,6 +165,8 @@ Svou roli hraje i určitý „wow efekt“ -- za víkend si vytvořit vlastní a
 Užší záběr by však měl řešit separátní workshop.
 
 Třeba [Czechitas](http://www.czechitas.cz/), které pořádají Rails Girls na Moravě, berou na separátních srazech algoritmizaci od základu v prostředí [Scratch](http://scratch.mit.edu/).
+
+Mohli bychom zůstat u samotného Ruby a věnovat se jednoduchým terminálovým aplikacím, klikátkům v [Shoes](http://shoesrb.com/) nebo hrám v [Gosu](http://www.libgosu.org/). Mohl by to být ekvivalent [Code Retreat](http://coderetreat.cz/) pro úplné začátečníky -- jedno téma zato dopodrobna a s testy. To však už předpokládá určitou znalost nebo mnohem větší odhodlání naučit se dobře programovat.
 
 Anebo to můžeme vzít přes webové technologie. Dobrým příkladem je [Mozilla Webmaker](https://webmaker.org/) -- sada nástrojů a postupů, jak začít tvořit na webu pro web. Koneckonců jsem si všiml, že účastnice zaujala možnost upravit existující stránky pomocí inspektoru, tedy standardního nástroje v každém prohlížeči -- to je zajímavá motivace pro pochopení webových technologií. Sám jsem se mnoho naučil psaním jednoduchých userscriptů pro [Greasemonkey](http://en.wikipedia.org/wiki/Greasemonkey), které upravovaly existující služby -- v praxi to může být přínosnější, než schopnost napsat si aplikaci vlastní.
 
@@ -186,8 +190,6 @@ Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a 
 </blockquote>
 </figure>
 
----
-
 # Další reporty
 
 * Tomáš Dundáček: [Jaké byly pražské Rails Girls?](http://blog.blueberryapps.com/post/86879787959/jake-byly-prazske-rails-girls)
@@ -197,3 +199,5 @@ Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a 
   * [Láďa Prskavec](https://www.facebook.com/ladislav.prskavec/media_set?set=a.10203734058943051.1073741827.1565556622)
   * [Lidmila Maršálková](http://lidmila.cz/spolecenske-udalosti/2014/05/17/railsgirls/)
   * [Matěj Vaněček](https://www.facebook.com/media/set/?set=a.623691277717244.1073741830.113468355406208)
+
+(Pokud jsem na někoho zapomněl, [pošlete Pull Request]({{ site.github.repo_url }}/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte](http://jan.vlnas.cz/))
