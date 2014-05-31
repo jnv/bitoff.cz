@@ -18,9 +18,9 @@ U nás se Rails Girls konají zpravidla jednou ročně a probíhají zhruba takt
 * V sobotu projdeme základy programování, jazyka Ruby a webových aplikací. Během odpoledne si pak účastnice vytvoří jednoduchou aplikaci v Rails -- [podle návodu](http://guides.railsgirls.com/app/) a za asistence koučů.
 * V neděli se aplikace vypustí do světa a účastnice si ji přizpůsobí k obrazu svému.
 
-Na jeden víkend je toho skutečně hodně, avšak cílem akce není udělat z účastnic ostřílené programátorky během tří dnů. Cílem je ukázat, že počítače nejsou černé skřínky žijící si vlastním životem a programování není magie, kterou by měla ovládat jen úzká skupina vyvolených. Řada účastnic má „ajťáky“ ve svém okolí a díky Rails Girls nahlédnou do žargonu, na kterém celé IT stojí. Zároveň získají základní představu, jak fungují webové stránky, které denně používají, ať už jde o Seznam, iDnes nebo Twitter. A v nejlepším případě je programování zaujme natolik, že po workshopu pokračují dále a v některém z dalších ročníků začnou samy koučovat.
+Na jeden víkend je toho skutečně hodně, avšak cílem akce není udělat z účastnic ostřílené programátorky během tří dnů. Cílem je ukázat, že počítače nejsou černé skřínky žijící si vlastním životem a programování není magie, kterou by měla ovládat jen úzká skupina vyvolených. Řada účastnic má „ajťáky“ ve svém okolí a díky Rails Girls nahlédnou do žargonu, na kterém celé IT stojí. Zároveň získají základní představu, jak fungují webové stránky, které denně používají, ať už jde o Seznam, iDnes nebo Facebook. A v nejlepším případě je programování zaujme natolik, že po workshopu pokračují dále a v některém z dalších ročníků začnou samy koučovat.
 
-Poslední možnost zní jako zbožné přání, jak by to hypoteticky mělo fungovat. Ovšem zdá se, že to skutečně funguje: právě letos koučovaly i dvě účastnice předešlých ročníků. Děvčata už pracují i na vlastním projektu -- [Bezlepci](http://www.bezlepci.cz/), web pro lidi s bezlepkovou dietou. Rails Girls mají reálný dopad.
+Poslední možnost zní jako zbožné přání, jak by to hypoteticky mělo fungovat. Ovšem zdá se, že to skutečně funguje: právě letos koučovaly i dvě účastnice předešlých ročníků. Děvčata už pracují i na vlastním projektu -- [Bezlepci](http://www.bezlepci.cz/), databáze obchodů a potravin pro lidi s bezlepkovou dietou. Rails Girls mají reálný dopad.
 
 <figure class="full">
 ![]({{page.assets}}/railsgirls.png)
@@ -61,7 +61,7 @@ Why skrze projekty jako [TryRuby](http://tryruby.org/) a [Hackety Hack!](http://
 </figcaption>
 </figure>
 
-Mimo to napsal i legendární [whyovu (srdceryvnou) příručku Ruby](http://mislav.uniqpath.com/poignant-guide/), což není ani tak učebnice jazyka, jako spíše post-moderní hybrid poezie, komiksu a kódu. Upřímně, není to kniha pro každého, ale garantuji vám, že si s ní rozšíříte slovní zásobu, představivost a (v kombinaci s psychotropními látkami) vědomí -- a nezapomeňte, že ke knize existuje i neméně [skvělý soundtrack](http://mislav.uniqpath.com/poignant-guide/soundtrack/).
+Mimo to napsal i legendární [whyovu (srdceryvnou) příručku Ruby](http://mislav.uniqpath.com/poignant-guide/), což není ani tak učebnice jazyka, jako spíše post-moderní hybrid poezie, komiksu a kódu. Upřímně, není to kniha pro každého, ale garantuji vám, že si s ní rozšíříte slovní zásobu, představivost a (v kombinaci s psychotropními látkami) vědomí -- a nezapomeňte, že ke knize existuje neméně [skvělý soundtrack](http://mislav.uniqpath.com/poignant-guide/soundtrack/).
 
 
 Už to bude pět let, co why ukončil svou digitální existenci, ale jeho projekty stále existují a na jeho odkaz navazují další lidé.
@@ -86,7 +86,7 @@ Nicméně můj pohled je trochu zkreslený tím, že jsem rubysta. Jiné jazyky 
 
 # Proč koučovat?
 
-Sice jsem o programování v Ruby přednášel celý semestr na FIT ČVUT, ale teprve na Rails Girls jsem si vyzkoušel, co o tom skutečně vím. Vysvětlit principy programovacího jazyka studentovi IT a někomu, kdo právě napsal první řádku kódu, není různě obtížné, je to naprosto nesrovnatelné. A práce s neprogra&shy;mátory má řadu výhod -- nemají špatné návyky z jiných jazyků a nepošlou vás do háje s tím, že v *jejich* jazyce se to řeší mnohem lépe!
+Sice jsem o programování v Ruby přednášel celý semestr na <acronym title="Fakulta informačních technologií">FIT</acronym> ČVUT, ale teprve na Rails Girls jsem si vyzkoušel, co o tom skutečně vím. Vysvětlit principy programovacího jazyka studentovi IT a někomu, kdo právě napsal první řádku kódu, není různě obtížné, je to naprosto nesrovnatelné. A práce s neprogra&shy;mátory má řadu výhod -- nemají špatné návyky z jiných jazyků a nepošlou vás do háje s tím, že v *jejich* jazyce se to řeší mnohem lépe!
 
 Část práce odvedou přednášející -- Karel Minařík v úvodu vysvětlil, že „algoritmus“ je vlastně totéž, jako kuchařský recept. A Robin Pokorný zase ukázal, k čemu jsou dobré kaskádové styly. Ale je potom na koučích vysvětlit konkrétní koncepty a provést účastnice nejastnostmi. K tomu koučové potřebují tři věci: znalost Ruby, trpělivost, ochotu a kofein. Schopnost počítat do čtyř je výhodou.
 
@@ -138,7 +138,7 @@ Yep, that's it! I am a programmer! :) <a href="https://twitter.com/search?q=%23r
 
 Pro workshopy existuje společná příručka -- [Rails Girls Guides](http://guides.railsgirls.com/). Po obsahové stránce je vymyšlená dobře -- vysvětluje, co kam zkopírovat, ale současně dává prostor pro vlastní iniciativu a další zdroje.
 
-Problémem se však překvapivě ukázalo být formátování, respektive jeho nedostatek. Příručka pracuje s určitou symbolikou, ale přesto jsme stále museli řešit, která řádka má přijít do terminálu a která do kódu -- a zda před `<body>` nebo `</body>`, což občas vedlo ke kuriózním chybám. Svou roli mohla sehrát i angličtina; přestože jazyková bariéra nebyla v našem případě zásadní problém, v cizojazyčném textu se člověk snáze ztratí.
+Problémem se však překvapivě ukázalo být formátování, respektive jeho nedostatek. Příručka sice pracuje s určitou symbolikou, přesto jsme stále museli řešit, která řádka má přijít do terminálu a která do kódu -- a zda před `<body>` nebo `</body>`, což občas vedlo ke kuriózním chybám. Svou roli mohla sehrát i angličtina; přestože jazyková bariéra nebyla v našem případě zásadní problém, v cizojazyčném textu se člověk snáze ztratí.
 
 Příručku bychom proto rádi přeložili a současně zlepšili její formátování. Osobně si myslím, že by pomohlo rozdělení na jednotlivé kroky, podobně jak to řeší [GitBook](https://www.gitbook.io/).
 
@@ -164,7 +164,7 @@ Užší záběr by však měl řešit separátní workshop.
 
 Třeba [Czechitas](http://www.czechitas.cz/), které pořádají Rails Girls na Moravě, berou na separátních srazech algoritmizaci od základu v prostředí [Scratch](http://scratch.mit.edu/).
 
-Anebo to můžeme vzít přes webové technologie. Dobrým příkladem je [Mozilla Webmaker](https://webmaker.org/) -- sada nástrojů a postupů, jak začít tvořit na webu pro web. Koneckonců jsem si všiml, že účastnice zaujala možnost upravit existující stránky pomocí inspektoru, tedy standardního nástroje v každém prohlížeči -- to je zajímavá motivace pro pochopení webových technologií. Sám jsem se mnoho naučil psaním jednoduchých *userscriptů* pro [Greasemonkey](http://en.wikipedia.org/wiki/Greasemonkey), které upravovaly existující služby -- v praxi to může být přínosnější, než schopnost napsat si aplikaci vlastní.
+Anebo to můžeme vzít přes webové technologie. Dobrým příkladem je [Mozilla Webmaker](https://webmaker.org/) -- sada nástrojů a postupů, jak začít tvořit na webu pro web. Koneckonců jsem si všiml, že účastnice zaujala možnost upravit existující stránky pomocí inspektoru, tedy standardního nástroje v každém prohlížeči -- to je zajímavá motivace pro pochopení webových technologií. Sám jsem se mnoho naučil psaním jednoduchých userscriptů pro [Greasemonkey](http://en.wikipedia.org/wiki/Greasemonkey), které upravovaly existující služby -- v praxi to může být přínosnější, než schopnost napsat si aplikaci vlastní.
 
 Možností existuje celá řada, proto pevně doufám, že začátečnické workshopy v ČR nezůstanou jen doménou Rails Girls -- nejenom Rails a nejenom pro holky.
 
