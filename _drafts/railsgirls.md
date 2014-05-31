@@ -57,7 +57,7 @@ Why skrze projekty jako [TryRuby](http://tryruby.org/) a [Hackety Hack!](http://
 <figure class="full">
 [![díky Whyově srdceryvné příručce se i kojenci mohou naučit Ruby. Je to tak jednoduché!]({{page.assets}}/about.the.poignant.guide-2.jpg)]({{page.assets}}/about.the.poignant.guide-2.jpg)
 <figcaption>
-  <cite>[why's (poignant) guide to Ruby](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html), why the lucky stiff</cite>
+  <cite>[why's (poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html), why the lucky stiff</cite>
 </figcaption>
 </figure>
 
