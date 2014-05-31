@@ -22,6 +22,10 @@ Na jeden víkend je toho skutečně hodně avšak cílem akce není z účastnic
 
 Poslední možnost zní zbožné přání jak by to hypoteticky mělo fungovat. Ale zdá se, že to funguje: právě letos koučovaly dvě účastnice z předešlých ročníků -- děvčata navíc chystají projekt [Bezlepci](http://www.bezlepci.cz/) pro lidi s bezlepkovou dietou. Rails Girls mají reálný dopad.
 
+<figure class="full">
+![]({{page.assets}}/railsgirls.png)
+</figure>
+
 # Proč vůbec Ruby?
 
 Když se bavím o Rails Girls s jinými vývojáři, občas dojde na otázku „Proč by se holky měly učit právě Ruby? Proč ne třeba `${můj oblíbený jazyk}`?“ Rails Girls samozřejmě znamenají framework Ruby on Rails, který stojí na jazyce Ruby.
@@ -119,10 +123,10 @@ Některé workshopy vedle TryRuby pracují i se hrou [Ruby Warrior](https://www.
 
 Je to výborné cvičení pro algoritmizaci, ale s velice rychle rostoucí obtížností. Navíc mi připadá, že úlohy nejsou příliš dobré na pochopení principů jazyka, ale jsou spíše vedené ke strukturování kódu, což není pro Rails Girls úplně přínosné.
 
-Pro pokročilejší programátorky a odhodlané bojovnice je to však skvělá výzva. Sice nám to nějakou dobu trvalo, ale probojovali jsme se až do páté úrovně.
+Pro pokročilejší programátorky a odhodlané bojovnice je to však skvělá výzva. Po mnoha pokusech a omylech jsme se probojovali až do páté úrovně.
 
-<figure class="embed">
-<blockquote class="twitter-tweet" lang="en">
+<figure>
+<blockquote class="twitter-tweet tw-align-center" lang="en">
 Yep, that's it! I am a programmer! :) <a href="https://twitter.com/search?q=%23railsgirlsprg&amp;src=hash">#railsgirlsprg</a> <a href="http://t.co/i39hA1Gz3j">pic.twitter.com/i39hA1Gz3j</a>
 <footer>
   <cite>Barbora Dušková (@chillipes) <a href="https://twitter.com/chillipes/statuses/467691303946682368">May 17, 2014</a></cite>
@@ -148,7 +152,7 @@ Případně nainstalovat [Node.js](http://www.nodejs.org/).
 
 V neděli jsme aplikaci nasazovali na [Heroku](https://www.heroku.com/), což s sebou nese ne zcela zřejmý problém: aplikace zahrnuje ukládání obrázků. A ukládání souborů v cloudových službách není jednoduchá věc -- instance aplikace jsou dočasné a všechny lokální soubory se dříve nebo později ztratí. Oficiální doporučení zní: [ukládejte soubory na Amazon S3](https://devcenter.heroku.com/articles/s3) -- což je pro nás na workshopu nepoužitelné.
 
-Vojta Hýža s Karlem Minaříkem proto vytvořili [gem carrierwave-blob](https://gist.github.com/karmi/f1dc8c75d67b92b23a55), který ukládá soubory do databáze. Není to sice efektivní, ale funguje to.
+Vojta Hýža s Karlem Minaříkem proto vytvořili gem [carrierwave-blob](https://gist.github.com/karmi/f1dc8c75d67b92b23a55), který ukládá soubory do databáze; ideální pro potřeby workshopu, ale už ne pro produkční nasazení.
 
 # Rails Girls bez Rails
 
@@ -162,7 +166,9 @@ Třeba [Czechitas](http://www.czechitas.cz/), které pořádají Rails Girls na 
 
 Nebo to můžeme vzít přes webové technologie. Dobrým příkladem je [Mozilla Webmaker](https://webmaker.org/), což je sada nástrojů a postupů jak začít tvořit na webu pro web. Koneckonců jsem si všiml, že účastnice zaujala možnost upravit existující stránky pomocí inspektoru, tedy standardního nástroje v každém prohlížeči -- to je zajímavá motivace pro pochopení webových technologií. Sám jsem se mnoho naučil psaním jednoduchých userscriptů pro [Greasemonkey](http://en.wikipedia.org/wiki/Greasemonkey), které upravovaly existující služby -- v praxi to může být přínosnější, než schopnost napsat si aplikaci vlastní.
 
-Možností je celá řada, proto pevně doufám že začátečnické workshopy v ČR nezůstanou jen doménou Rails Girls -- nejenom Rails a nejenom pro holky. Ale třeba jen o takových akcích nevím.
+Možností je celá řada, proto pevně doufám že začátečnické workshopy v ČR nezůstanou jen doménou Rails Girls -- nejenom Rails a nejenom pro holky.
+
+Ale třeba jen o takových akcích nevím.
 
 ---
 
@@ -170,8 +176,8 @@ To však není kritika Rails Girls -- je to iniciativa, která už si vybudovala
 
 Chtěl bych poděkovat organizátorům -- [Karlovi](https://twitter.com/karmiq), [Láďovi](https://twitter.com/abtris), [Elišce](https://twitter.com/eliskah) a [Vojtovi](https://twitter.com/vhyza) -- že akci uspořádali a že jsem měl možnost být součástí téhle výborné iniciativy. Těším se na další ročník.
 
-<figure class="embed">
-<blockquote class="twitter-tweet">
+<figure>
+<blockquote class="twitter-tweet tw-align-center" lang="cs">
 Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a href="https://twitter.com/search?q=%23railsgirlsprg&amp;src=hash">#railsgirlsprg</a> <a href="http://t.co/dQnVnp2DWu">pic.twitter.com/dQnVnp2DWu</a>
 
 <footer>
