@@ -185,3 +185,15 @@ Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a 
 </footer>
 </blockquote>
 </figure>
+
+---
+
+# Další reporty
+
+* Tomáš Dundáček: [Jaké byly pražské Rails Girls?](http://blog.blueberryapps.com/post/86879787959/jake-byly-prazske-rails-girls)
+* Nguyen Bach Luu Ly: [Rails Girls Prague 2014](http://hagenhc.com/rails-girls-prague-2014/)
+* Fotografie
+  * Oficiální: [Pátek](https://www.facebook.com/media/set/?set=a.766714140045595.1073741839.545781622138849), [Sobota](https://www.facebook.com/media/set/?set=a.766944646689211.1073741840.545781622138849)
+  * [Láďa Prskavec](https://www.facebook.com/ladislav.prskavec/media_set?set=a.10203734058943051.1073741827.1565556622)
+  * [Lidmila Maršálková](http://lidmila.cz/spolecenske-udalosti/2014/05/17/railsgirls/)
+  * [Matěj Vaněček](https://www.facebook.com/media/set/?set=a.623691277717244.1073741830.113468355406208)
