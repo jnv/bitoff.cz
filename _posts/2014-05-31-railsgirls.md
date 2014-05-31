@@ -166,7 +166,7 @@ Užší záběr by však měl řešit separátní workshop.
 
 Třeba [Czechitas](http://www.czechitas.cz/), které pořádají Rails Girls na Moravě, berou na separátních srazech algoritmizaci od základu v prostředí [Scratch](http://scratch.mit.edu/).
 
-Mohli bychom zůstat u samotného Ruby a věnovat se jednoduchým terminálovým aplikacím, klikátkům v [Shoes](http://shoesrb.com/) nebo hrám v [Gosu](http://www.libgosu.org/). Mohl by to být ekvivalent [Code Retreat](http://coderetreat.cz/) pro úplné začátečníky -- jedno téma zato dopodrobna a s testy. To však už předpokládá určitou znalost nebo mnohem větší odhodlání naučit se dobře programovat.
+Mohli bychom zůstat u samotného Ruby a věnovat se jednoduchým terminálovým aplikacím, klikátkům v [Shoes](http://shoesrb.com/) nebo hrám v [Gosu](http://www.libgosu.org/). Mohl by to být ekvivalent [Code Retreat](http://coderetreat.cz/) pro úplné začátečníky -- jedno téma, zato dopodrobna a s testy. To už však předpokládá určitou znalost nebo mnohem větší odhodlání naučit se dobře programovat.
 
 Anebo to můžeme vzít přes webové technologie. Dobrým příkladem je [Mozilla Webmaker](https://webmaker.org/) -- sada nástrojů a postupů, jak začít tvořit na webu pro web. Koneckonců jsem si všiml, že účastnice zaujala možnost upravit existující stránky pomocí inspektoru, tedy standardního nástroje v každém prohlížeči -- to je zajímavá motivace pro pochopení webových technologií. Sám jsem se mnoho naučil psaním jednoduchých userscriptů pro [Greasemonkey](http://en.wikipedia.org/wiki/Greasemonkey), které upravovaly existující služby -- v praxi to může být přínosnější, než schopnost napsat si aplikaci vlastní.
 
@@ -200,4 +200,4 @@ Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a 
   * [Lidmila Maršálková](http://lidmila.cz/spolecenske-udalosti/2014/05/17/railsgirls/)
   * [Matěj Vaněček](https://www.facebook.com/media/set/?set=a.623691277717244.1073741830.113468355406208)
 
-(Pokud jsem na někoho zapomněl, [pošlete Pull Request]({{ site.github.repo_url }}/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte](http://jan.vlnas.cz/))
+(Pokud jsem na někoho zapomněl, [pošlete Pull Request](https://github.com/jnv/bitoff.cz/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte](http://jan.vlnas.cz/))
