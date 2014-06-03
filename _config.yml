@@ -20,3 +20,5 @@ kramdown:
   header_offset: 1
   parse_block_html: true
   # transliterated_header_ids: true
+gems:
+  - jekyll-sitemap
