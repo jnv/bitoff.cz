@@ -8,7 +8,7 @@ dependencies: |
 
 Před dvěma týdny jsem měl možnost koučovat na třetím ročníku [Rails Girls v Praze](http://railsgirls.com/prague). Byla to natolik výborná zkušenost, že jsem se rozhodl k ní sepsat pár myšlenek -- a zároveň [shrnout připomínky](#todo), které jsem probíral s účastnicemi a ostatními kouči.
 
-[Rails Girls](http://railsgirls.com/) je iniciativa s cílem zpřístupnit programování ženám a dívkám skrze vývoj webových aplikací v [Ruby on Rails](http://rubyonrails.org/). Začalo to v roce 2010 ve Finsku víkendovými workshopy, které se dnes [konají po celém světě](http://railsgirls.com/events). Od minulého roku se také pořádají [Rails Girls Summer of Code](http://railsgirlssummerofcode.org/), kde účastnice tři měsíce pracují na vybraných open-source projektech -- a dostanou za to zaplaceno. Jde vlastně o ekvivalent [Google Summer of Code](http://www.google-melange.com/) pro začínající programátorky.
+[Rails Girls](http://railsgirls.com/) je iniciativa s cílem zpřístupnit programování ženám a dívkám skrze vývoj webových aplikací v [Ruby on Rails](http://rubyonrails.org/). Začalo to v roce 2010 ve Finsku víkendovými workshopy, které se dnes [konají po celém světě](http://railsgirls.com/events). Od minulého roku se také pořádá [Rails Girls Summer of Code](http://railsgirlssummerofcode.org/), kde účastnice tři měsíce pracují na vybraných open-source projektech -- a dostanou za to zaplaceno. Jde vlastně o ekvivalent [Google Summer of Code](http://www.google-melange.com/) pro začínající programátorky.
 
 Kromě Prahy se workshopy pořádají také [v Ostravě](http://railsgirls.com/ostrava), [v Brně](http://railsgirls.com/brno) (zrovna tento víkend) a údajně se chystá i Olomouc.
 
@@ -200,4 +200,4 @@ Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a 
   * [Lidmila Maršálková](http://lidmila.cz/spolecenske-udalosti/2014/05/17/railsgirls/)
   * [Matěj Vaněček](https://www.facebook.com/media/set/?set=a.623691277717244.1073741830.113468355406208)
 
-(Pokud jsem na někoho zapomněl, [pošlete Pull Request](https://github.com/jnv/bitoff.cz/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte](http://jan.vlnas.cz/))
+(Pokud jsem na někoho zapomněl, [pošlete Pull Request](https://github.com/jnv/bitoff.cz/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte](http://jan.vlnas.cz/).)
