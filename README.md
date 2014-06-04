@@ -1,6 +1,6 @@
 # bitoff.cz
 
-This is the source code and the content of the [bit off blog](http://bitoff.cz).
+This is the source code and the content of the [bit off blog](http://www.bitoff.cz).
 
 The site is powered by [Jekyll](http://jekyllrb.com/) and [GitHub Pages](http://pages.github.com/).
 
