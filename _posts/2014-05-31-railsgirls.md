@@ -86,7 +86,7 @@ Nicméně můj pohled je trochu zkreslený tím, že jsem rubysta. Jiné jazyky 
 
 # Proč koučovat?
 
-Sice jsem o programování v Ruby přednášel celý semestr na <acronym title="Fakulta informačních technologií">FIT</acronym> ČVUT, ale teprve na Rails Girls jsem si vyzkoušel, co o tom skutečně vím. Vysvětlit principy programovacího jazyka studentovi IT a někomu, kdo právě napsal první řádku kódu, není různě obtížné, je to naprosto nesrovnatelné. A práce s neprogra&shy;mátory má řadu výhod -- nemají špatné návyky z jiných jazyků a nepošlou vás do háje s tím, že v *jejich* jazyce se to řeší mnohem lépe!
+Sice jsem o programování v Ruby přednášel celý semestr na <abbr title="Fakulta informačních technologií">FIT</abbr> ČVUT, ale teprve na Rails Girls jsem si vyzkoušel, co o tom skutečně vím. Vysvětlit principy programovacího jazyka studentovi IT a někomu, kdo právě napsal první řádku kódu, není různě obtížné, je to naprosto nesrovnatelné. A práce s neprogra&shy;mátory má řadu výhod -- nemají špatné návyky z jiných jazyků a nepošlou vás do háje s tím, že v *jejich* jazyce se to řeší mnohem lépe!
 
 Část práce odvedou přednášející -- Karel Minařík v úvodu vysvětlil, že „algoritmus“ je vlastně totéž, jako kuchařský recept. A Robin Pokorný zase ukázal, k čemu jsou dobré kaskádové styly. Ale je potom na koučích vysvětlit konkrétní koncepty a provést účastnice nejastnostmi. K tomu koučové potřebují tři věci: znalost Ruby, trpělivost, ochotu a kofein. Schopnost počítat do čtyř je výhodou.
 
