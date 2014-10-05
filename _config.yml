@@ -10,7 +10,6 @@ timezone: Europe/Prague
 permalink: :title/
 paginate_path: 'page:num'
 
-pygments:    true
 markdown:    kramdown
 kramdown:
   auto_ids: true
