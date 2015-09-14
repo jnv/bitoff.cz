@@ -29,3 +29,7 @@ Thumbs.db
 *.jar
 *.rar
 *.tar
+*.zip
+
+# Ignore Gemfile.lock
+# (stay with GH version)
