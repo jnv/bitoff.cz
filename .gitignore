@@ -33,3 +33,4 @@ Thumbs.db
 
 # Ignore Gemfile.lock
 # (stay with GH version)
+Gemfile.lock
