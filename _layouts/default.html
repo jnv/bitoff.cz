@@ -21,10 +21,16 @@
   <div class="site">
     {{ content }}
     <footer class="site-footer">
+      {% if page.url != "/index.html" %}
+      <nav class="post-footer-nav">
+        <a href="/" rel="home" title="Přejít na hlavní stránku">
+          <strong>bit off</strong>
+        </a>
+      {% else %}
       <nav>
-        {% if page.url != "/index.html" %}<a href="/" rel="home">více</a>{% endif %}
-        <a href="/feed.xml" rel="alternate home">RSS</a>
-        <a href="https://github.com/jnv/bitoff.cz" rel="source">kód</a>
+      {% endif %}
+        <a class="footer-nav-link" href="/feed.xml" rel="alternate home">RSS</a>
+        <a class="footer-nav-link" href="https://github.com/jnv/bitoff.cz" rel="source">kód</a>
       </nav>
     </footer>
   </div>

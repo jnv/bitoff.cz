@@ -337,14 +337,10 @@ figure svg {
 }
 
 @media only screen and (min-width: 35em) {
-  .site-intro, .site-header {
+  .site-intro,
+  .post-footer-nav {
     text-indent: -1em;
   }
-}
-
-.site-header {
-  /*font-size: 0.76em;*/
-  margin-bottom: 0.875em;
 }
 
 .meta {
@@ -364,8 +360,9 @@ figure svg {
 .posts {
 }
 
+
 .site-footer {
-  margin-top: 2em;
+  padding-top: 3em;
   text-transform: lowercase;
 }
 
@@ -373,6 +370,11 @@ figure svg {
   margin-right: 2em;
   color: #aaa;
   text-decoration: none;
+}
+
+.site-footer strong {
+  color: #222;
+  font-weight: normal;
 }
 
 /****************************
