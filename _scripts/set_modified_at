@@ -1,0 +1,7 @@
+#!/bin/bash
+# Set last_modified_at frontmatter value
+# based on file's git history.
+git ls-tree -r --name-only HEAD _posts/ | while read filename; do
+  timestamp=$(git log -1 --format="%ai" -- "$filename")
+  fore set last_modified_at "$timestamp" "$filename"
+done
