@@ -140,7 +140,7 @@ Vizualizace se snaží zachytit barevnost jednotlivých kapitol filmu (výseče 
 
 Na první pohled se zdá, že švédská adaptace bude akčnější, avšak spíše se projevují nedostatky vizualizace v této formě; míra pohybu je spočítaná jako medián záběrů v celé kapitole, takže se ve výsledku akční záběry vykrátí s pomalými. Tempo americké verze je velice proměnlivé, proto pohled na celkovou kapitolu mnoho neodhalí. Zajímavější by bylo vizualizovat míru pohybu po záběrech, což je i myšlenkou Brodbeckovy původní implementace. To by však bylo celkově náročnější na zpracování dat i výsledné zobrazení.
 
-Dalším nedostatkem této vizualizace je zobrazení barev: tím, že zůstávají staticky na místě, to budí dojem, jako by vnější a vnitřní barvy měly větší celkový podíl na záběrech, což není úmysl. Zadřel jsem si mozkové závity na středoškolské geometrii, ale problém se mi vyřešit nepodařilo. Každopádně [kód vizualizace je k dispozici](https://github.com/jnv/bitoff.cz/tree/gh-pages/assets/2014-03-cinemetrics/cinemetrics.js) (zralý na celkový přepis).
+Dalším nedostatkem této vizualizace je zobrazení barev: tím, že zůstávají staticky na místě, to budí dojem, jako by vnější a vnitřní barvy měly větší celkový podíl na záběrech. To není úmysl. Zadřel jsem si mozkové závity na středoškolské geometrii, ale problém se mi vyřešit nepodařilo. Každopádně [kód vizualizace je k dispozici](https://github.com/jnv/bitoff.cz/tree/gh-pages/assets/2014-03-cinemetrics/cinemetrics.js) (zralý na celkový přepis).
 
 Upřímně, očekával jsem o něco vizuálně atraktivnější výsledek, ale zjevně jsem si vybral špatný žánr. Inu, není to <cite>Planeta Teror</cite>...
 

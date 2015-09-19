@@ -61,7 +61,7 @@ Why skrze projekty jako [TryRuby](http://tryruby.org/) a [Hackety Hack!](http://
 </figcaption>
 </figure>
 
-Mimo to napsal i legendární [whyovu (srdceryvnou) příručku Ruby](http://mislav.uniqpath.com/poignant-guide/), což není ani tak učebnice jazyka, jako spíše post-moderní hybrid poezie, komiksu a kódu. Upřímně, není to kniha pro každého, ale garantuji vám, že si s ní rozšíříte slovní zásobu, představivost a (v kombinaci s psychotropními látkami) vědomí -- a nezapomeňte, že ke knize existuje neméně [skvělý soundtrack](http://mislav.uniqpath.com/poignant-guide/soundtrack/).
+Mimo to napsal i legendární [whyovu (srdceryvnou) příručku Ruby](http://mislav.uniqpath.com/poignant-guide/). Nejedná se ani tak o učebnici jazyka, jako post-moderní hybrid poezie, komiksu a kódu. Upřímně, není to kniha pro každého, ale garantuji vám, že si s ní rozšíříte slovní zásobu, představivost a (v kombinaci s psychotropními látkami) vědomí -- a nezapomeňte, že ke knize existuje neméně [skvělý soundtrack](http://mislav.uniqpath.com/poignant-guide/soundtrack/).
 
 
 Už to bude pět let, co why ukončil svou digitální existenci, ale jeho projekty stále existují a na jeho odkaz navazují další lidé.
@@ -119,9 +119,9 @@ Bohužel stávající kód TryRuby není dostupný, takže není v naší moci t
 
 ## Ruby Warrior je super, ale ne pro každého
 
-Některé workshopy vedle TryRuby pracují i se hrou [Ruby Warrior](https://www.bloc.io/ruby-warrior), což je takový drsnější [Robot Karel](http://cs.wikipedia.org/wiki/Karel_%28programovac%C3%AD_jazyk%29). Cílem hry je provést rytíře přes hordu nepřátel až k východu.
+Některé workshopy vedle TryRuby pracují i se hrou [Ruby Warrior](https://www.bloc.io/ruby-warrior) -- to je takový drsnější [Robot Karel](http://cs.wikipedia.org/wiki/Karel_%28programovac%C3%AD_jazyk%29). Cílem hry je provést rytíře přes hordu nepřátel až k východu.
 
-Jde o výborné cvičení pro algoritmizaci, ale s velice rychle rostoucí obtížností. Navíc mi připadá, že úlohy nejsou příliš dobré na pochopení principů jazyka, ale jsou spíše vedené ke strukturování kódu, což není pro Rails Girls úplně přínosné.
+Jde o výborné cvičení pro algoritmizaci, ale s velice rychle rostoucí obtížností. Navíc mi připadá, že úlohy nejsou příliš dobré na pochopení principů jazyka, ale jsou spíše vedené ke strukturování kódu. To pro Rails Girls není úplně přínosné.
 
 Pro pokročilejší programátorky a odhodlané bojovnice je to však skvělá výzva. Po mnoha pokusech a omylech jsme se probojovali až do páté úrovně.
 
@@ -138,7 +138,7 @@ Yep, that's it! I am a programmer! :) <a href="https://twitter.com/search?q=%23r
 
 Pro workshopy existuje společná příručka -- [Rails Girls Guides](http://guides.railsgirls.com/). Po obsahové stránce je vymyšlená dobře -- vysvětluje, co kam zkopírovat, ale současně dává prostor pro vlastní iniciativu a další zdroje.
 
-Problémem se však překvapivě ukázalo být formátování, respektive jeho nedostatek. Příručka sice pracuje s určitou symbolikou, přesto jsme stále museli řešit, která řádka má přijít do terminálu a která do kódu -- a zda před `<body>` nebo `</body>`, což občas vedlo ke kuriózním chybám. Svou roli mohla sehrát i angličtina; přestože jazyková bariéra nebyla v našem případě zásadní problém, v cizojazyčném textu se člověk snáze ztratí.
+Problémem se však překvapivě ukázalo být formátování, respektive jeho nedostatek. Příručka sice pracuje s určitou symbolikou, přesto jsme stále museli řešit, která řádka má přijít do terminálu a která do kódu -- a zda před `<body>` nebo `</body>`; to občas vedlo ke kuriózním chybám. Svou roli mohla sehrát i angličtina; přestože jazyková bariéra nebyla v našem případě zásadní problém, v cizojazyčném textu se člověk snáze ztratí.
 
 Příručku bychom proto rádi přeložili a současně zlepšili její formátování. Osobně si myslím, že by pomohlo rozdělení na jednotlivé kroky, podobně jak to řeší [GitBook](https://www.gitbook.io/).
 
@@ -152,7 +152,7 @@ Anebo nainstalovat [Node.js](http://www.nodejs.org/).
 
 ## Heroku není na soubory
 
-V neděli jsme aplikaci nasazovali na [Heroku](https://www.heroku.com/), což s sebou nese ne zcela zřejmý problém: aplikace zahrnuje ukládání obrázků. A ukládání souborů v cloudových službách není jednoduchá věc -- instance aplikace jsou dočasné a všechny lokální soubory se dříve nebo později ztratí. Oficiální doporučení zní: [ukládejte soubory na Amazon S3](https://devcenter.heroku.com/articles/s3), což je pro nás na workshopu nepoužitelné.
+V neděli jsme aplikaci nasazovali na [Heroku](https://www.heroku.com/). To s sebou nese ne zcela zřejmý problém: aplikace zahrnuje ukládání obrázků. A ukládání souborů v cloudových službách není jednoduchá věc -- instance aplikace jsou dočasné a všechny lokální soubory se dříve nebo později ztratí. Oficiální doporučení zní: [ukládejte soubory na Amazon S3](https://devcenter.heroku.com/articles/s3). To je pro workshopy nepoužitelné.
 
 Vojta Hýža s Karlem Minaříkem proto vytvořili gem [carrierwave-blob](https://gist.github.com/karmi/f1dc8c75d67b92b23a55), který ukládá soubory do databáze; ideální pro potřeby workshopu, ale už ne pro produkční nasazení.
 
