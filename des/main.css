@@ -381,8 +381,13 @@ figure svg {
  * Post
  ****************************/
 
-.post-header {
+.post {
+  padding-top: 2em;
+  padding-top: 12vh;
+}
 
+.post-header {
+  padding-bottom: 1em;
 }
 
 .post-title {
