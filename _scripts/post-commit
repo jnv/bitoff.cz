@@ -1,0 +1,15 @@
+#!/bin/bash
+# Based on: http://toroid.org/ams/etc/git-last-modified
+
+AUTO_TAG="[post-commit]"
+
+git log -1 --format=%s HEAD | fgrep -q "$AUTO_TAG" && exit
+
+git diff --name-only HEAD^ HEAD | grep -x '_posts/.*\.md' |\
+while read file;
+do
+  bundle exec fore touch last_modified_at "$file"
+  git add "$file"
+done
+
+git diff-index --quiet --cached HEAD || git commit -m "$AUTO_TAG Aktualizace last_modified_at"
