@@ -3,7 +3,9 @@
 
 AUTO_TAG="[post-commit]"
 
-git log -1 --format=%s HEAD | fgrep -q "$AUTO_TAG" && exit
+[ ! -f .commit_in_progress ] && exit
+
+git log -1 --format='%N' HEAD | fgrep -q "$AUTO_TAG" && exit
 
 git diff --name-only HEAD^ HEAD | grep -x '_posts/.*\.md' |\
 while read file;
@@ -12,4 +14,5 @@ do
   git add "$file"
 done
 
-git diff-index --quiet --cached HEAD || git commit -m "$AUTO_TAG Aktualizace last_modified_at"
+rm .commit_in_progress
+git diff-index --quiet --cached HEAD || git commit --no-edit --amend --no-verify && git notes append -m "$AUTO_TAG"
