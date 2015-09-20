@@ -289,7 +289,8 @@ blockquote footer {
 
 figure img,
 .figure img,
-figure svg {
+figure svg,
+img.figure {
   display: block;
   margin: 0 auto;
   max-width: 100%;
