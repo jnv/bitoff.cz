@@ -29,6 +29,8 @@ defaults:
       type: posts
     values:
       layout: post
+      license: CC0-1.0
+      license_url: http://creativecommons.org/publicdomain/zero/1.0/
   -
     scope:
       path: ""
