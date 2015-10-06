@@ -146,7 +146,7 @@ Upřímně, očekával jsem o něco vizuálně atraktivnější výsledek, ale 
 
 <figure class="full">
 <figcaption>
-  Vizualizace pro <cite lang="en">Planet Terror</cite> (2001)
+  Vizualizace pro <cite lang="en">Planet Terror</cite> (2007)
 </figcaption>
 <div data-cinemetrics data-w="400" data-h="400" data-src="{{page.assets}}/cm-planet.json">
 ![]({{page.assets}}/cm-planet.png){: width="400" height="400"}
