@@ -12,5 +12,11 @@ line.slope { stroke: #444; stroke-width: 1; }
 .missing text.label { display: none; }
 .missing line.slope { display: none; }
 
-.over text.label { fill: #bb2629; font-weight: bold; }
-.over line.slope { stroke: #bb2629; stroke-width: 2; }
+.country:hover text.label {
+  fill: #bb2629;
+  font-weight: bold;
+}
+.country:hover line.slope {
+  stroke: #bb2629;
+  stroke-width: 2;
+}

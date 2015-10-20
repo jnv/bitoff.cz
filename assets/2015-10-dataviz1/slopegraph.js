@@ -107,10 +107,6 @@ d3.csv(srcFile, function(csv) {
                     .attr("class", "country")
                     .classed("missing", function(d) { return missing(d); });
 
-    country
-      .on("mouseover", function(d,i) { return d3.select(this).classed("over", true); })
-      .on("mouseout", function(d,i) { return d3.select(this).classed("over", false); });
-
     // ** Left column
     country
       .append("text")
