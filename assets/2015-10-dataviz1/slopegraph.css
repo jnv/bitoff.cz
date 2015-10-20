@@ -1,0 +1,16 @@
+.d3-slopegraph svg {
+  max-width: 100%;
+}
+.d3-slopegraph text {
+  font-size: 14px;
+}
+
+text.label { fill: #444; }
+text.label.start { text-anchor: end; }
+line.slope { stroke: #444; stroke-width: 1; }
+
+.missing text.label { display: none; }
+.missing line.slope { display: none; }
+
+.over text.label { fill: #bb2629; font-weight: bold; }
+.over line.slope { stroke: #bb2629; stroke-width: 2; }
