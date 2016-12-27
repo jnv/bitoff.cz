@@ -200,4 +200,4 @@ Díky hlavně všem koučům co věnovali svůj čas na tuhle skvělou akci. <a 
   * [Lidmila Maršálková](http://lidmila.cz/spolecenske-udalosti/2014/05/17/railsgirls/)
   * [Matěj Vaněček](https://www.facebook.com/media/set/?set=a.623691277717244.1073741830.113468355406208)
 
-(Pokud jsem na někoho zapomněl, [pošlete Pull Request](https://github.com/jnv/bitoff.cz/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte](http://jan.vlnas.cz/).)
+(Pokud jsem na někoho zapomněl, [pošlete Pull Request](https://github.com/jnv/bitoff.cz/blob/gh-pages/_posts/2014-05-31-railsgirls.md) nebo se [mi ozvěte]({{ site.author_uri }}).)

@@ -1,7 +1,7 @@
 name: bit off
 url: http://www.bitoff.cz
 author: Jan Vlnas
-author_uri: http://jan.vlnas.cz/
+author_uri: https://jan.vlnas.cz/
 tag_uri: "tag:bitoff.cz,2014-03-10:"
 safe: true
 exclude: [Gemfile, Gemfile.lock, Guardfile, README.md]
