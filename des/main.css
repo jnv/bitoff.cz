@@ -7,7 +7,7 @@
  */
 
 html {
-  font: normal 100.1%/1.52381em "Clear Sans", "Segoe UI", Segoe, Ubuntu, Tahoma, Geneva, sans-serif; /* base font size 16px with 1.65 line-height */
+  font: normal 100.1%/1.52381em sans-serif; /* base font size 16px with 1.65 line-height */
 }
 
 @media only screen and (min-width: 49em)
