@@ -7,9 +7,14 @@ layout: default
     <header class="post-header">
       <h1 class="post-title p-name">{{ page.title }}</h1>
       {% if page.subtitle %}
-      <p class="post-subtitle p-summary">{{page.subtitle}}
+      <p class="post-subtitle p-summary">{{page.subtitle}}</p>
       {% endif %}
-      <p class="meta"><time class="dt-published" datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%-d. %-m. %Y" }}</time></p>
+      <p class="meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d. %-m. %Y" }}</time>
+        {% if page.last_modified_at %}
+          (upraveno <time class="dt-updated" datetime="{{  page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d. %-m. %Y" }}</time>)
+        {% endif %}
+      </p>
     </header>
     <div class="e-content post-content">
       {{ content }}
