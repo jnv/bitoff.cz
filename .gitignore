@@ -1,4 +1,5 @@
 _site/
+vendor/
 
 # Ignore hidden folders
 .*/
