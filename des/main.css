@@ -189,6 +189,11 @@ code {
   font-family: monospace;
 }
 
+ins {
+  text-decoration: none;
+  font-style: italic;
+}
+
 /******************
  Block level stuff
  ******************/
