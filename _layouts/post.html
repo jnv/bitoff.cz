@@ -11,7 +11,7 @@ layout: default
       {% endif %}
       <p class="meta">
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d. %-m. %Y" }}</time>
-        {% if page.last_modified_at %}
+        {% if page.last_modified_at and page.major_edit == true %}
           (upraveno <time class="dt-updated" datetime="{{  page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d. %-m. %Y" }}</time>)
         {% endif %}
       </p>
