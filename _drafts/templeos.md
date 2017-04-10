@@ -4,6 +4,9 @@ subtitle: "TempleOS: Operační systém pro Boha"
 assets: /assets/2017-04-templeos
 dependencies_head: |
   <link rel="stylesheet" href="/assets/2017-04-templeos/templeos.css">
+dependencies: |
+  <script src="/assets/2017-04-templeos/extras.js"></script>
+published: false
 ---
 
 V průběhu staletí budovalo lidstvo chrámy svým božstvům. Ať už jako místo posledního odpočinku krále-boha, centrum komunity a rozjímání či oslavy Všemohoucího. Starý zákon popisuje Hospodinův chrám, první židovský chrám který král Šalamoun nechal postavit na dnešní Chrámové hoře v Jeruzalémě. 
@@ -134,7 +137,15 @@ Jak se postavit ke všeobjímající komplexitě? Arbesman navrhuje, abychom sys
 
 A mezitím jeden osamělý programátor v Nevadě bude dále vylepšovat své životní dílo – operační systém, který je chrámem pro Boha. Místo rozjímání a obětování Bohu. Místo, kde uživatel je velekněz a nic mu není zapovězeno. Místo, kde je uživateli nadřazený už jen Bůh.
 
-## Zdroje
+# Zdroje
+
+- [TempleOS.org](http://www.templeos.org/)
+- Jesse Hicks: [God's Lonely Programmer][vice]
+- Richard Mitton: [A Constructive Look At TempleOS][constructive]
+- Jack Whitham: [Porting third-party programs to TempleOS][jwhitham]
+- Samuel Arbesman: [Is technology making the world indecipherable?][complicated]
+
+<span class="blink"></span>
 
 [charter]: https://archive.is/Q9EGY
 [guidelines]: https://archive.is/Fsz6b
