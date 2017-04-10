@@ -1,5 +1,6 @@
 _site/
 vendor/
+bin/
 
 # Ignore hidden folders
 .*/
