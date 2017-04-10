@@ -25,7 +25,7 @@ function formatDate(date) {
 
   var wd = date.getDay();
   var dom = pad(date.getDate());
-  var month = pad(date.getMonth());
+  var month = pad(date.getMonth() + 1);
   var hour = pad(date.getHours());
   var min = pad(date.getMinutes());
   var sec = pad(date.getSeconds());
@@ -38,7 +38,7 @@ function updateTopBar() {
   var date = formatDate(new Date());
 
   var fps = 'FPS:' + getRandomInt(30, 32)
-  var cpu = 'CPU' + pad(getRandomInt(0, 9), ' ') + ' 1'
+  var cpu = 'CPU' + pad(getRandomInt(1, 9), ' ') + ' 1'
 
   topBarLeft.textContent = date + ' ' + fps + ' ' + mem + ' ' + cpu
 }

@@ -39,6 +39,7 @@ body {
   word-spacing: 1ex;
   padding-left: 0.3rem;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .js-topbar span {
@@ -159,3 +160,21 @@ body {
   height: 1em;
   animation: blink 800ms linear infinite;
 }
+
+h2 {
+  font-size: 1.33em;
+}
+
+hr[class] {
+  border: none;
+}
+hr.car::before {
+  content: url('hr-car.gif');
+}
+hr.monster::before {
+  content: url('hr-monster.gif');
+}
+hr.car::before {
+  content: url('hr-tank.gif');
+}
+
