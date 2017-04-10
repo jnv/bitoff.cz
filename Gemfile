@@ -6,4 +6,6 @@ versions = JSON.parse(open("https://pages.github.com/versions.json").read)
 
 gem "github-pages", versions["github-pages"]
 
-gem "forematter", github: "jnv/forematter"
+group :development do
+  gem "forematter", git: "https://github.com/jnv/forematter", require: false
+end
