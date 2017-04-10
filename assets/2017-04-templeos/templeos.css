@@ -1,8 +1,161 @@
 @font-face {
-    font-family: 'Fixedsys Excelsior';
+    font-family: FixedsysExcelsior;
     src: url('fixedsys.woff2') format('woff2'),
          url('fixedsys.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+body {
+  border: 6px double #0000A8;
+  margin: 0.3rem;
+  margin-top: 1.3rem;
+  background-color: #fff;
+}
+
+.post {
+  font-family: 'Lucida Console', 'Consolas', monospace;
+}
+
+.post-title,
+.js-menu,
+.post::before, .post::after,
+.js-marquee,
+.js-topbar {
+  font-family: FixedsysExcelsior, fixedsys, monospace;
+  line-height: 1rem;
+  text-rendering: geometricPrecision;
+  font-size: 16px;
+}
+
+.js-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background: #0000A8;
+  color: #fff;
+  word-spacing: 1ex;
+  padding-left: 0.3rem;
+  overflow: hidden;
+}
+
+.js-topbar span {
+  display: inline-block;
+  margin-right: 1ex;
+}
+
+.js-menu,
+.js-marquee-inner {
+  text-decoration: none;
+  background-color: #0000A8;
+  color: #fff;
+  line-height: 1;
+  height: 18px;
+}
+
+.post::before {
+  content: 'Post';
+  position: absolute;
+  top: 2rem;
+  left: 0.2rem;
+  padding: 0.1rem 0;
+  color: #0000A8;
+  width: 0.7rem;
+  line-height: 0.7;
+  background-color: #fff;
+}
+
+@keyframes menu {
+  from,
+  49.9% {
+    background-color: #0000A8;
+    color: #fff;
+  }
+  to,
+  50% {
+    background-color: #fff;
+    color: #0000A8;
+  }
+}
+.js-menu {
+  animation: menu 800ms linear infinite;
+}
+.js-marquee {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  pointer-events: none;
+}
+.js-marquee-inner {
+  width: 30%;
+  max-width: 10rem;
+  white-space: nowrap;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.js-marquee-inner::before,
+.js-marquee-inner::after {
+  content: '/_posts/2017-04-11-templeos.md . . . ';
+  display: inline-block;
+  animation: marquee 3s linear infinite;
+}
+
+.js-menu {
+  position: absolute;
+  display: block;
+  top: 1rem;
+  left: 1rem;
+  text-transform: uppercase;
+}
+.js-menu:visited {
+  color: #fff;
+}
+
+.post {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.post-header {
+  text-align: center
+}
+
+.post-title {
+  font-size: 64px;
+  line-height: 0.8;
+  padding-bottom: 0.5em;
+}
+
+@keyframes blink {
+  from,
+  49.9% {
+    background-color: #fff;
+  }
+  to,
+  50% {
+    background-color: #000;
+  }
+}
+
+.blink {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  animation: blink 800ms linear infinite;
+}
