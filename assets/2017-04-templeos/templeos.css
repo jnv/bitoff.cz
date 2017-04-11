@@ -11,6 +11,7 @@ body {
   margin: 0.3rem;
   margin-top: 1.3rem;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .post {
@@ -158,6 +159,8 @@ body {
   display: inline-block;
   width: 1em;
   height: 1em;
+  position: relative;
+  top: 0.1em;
   animation: blink 800ms linear infinite;
 }
 
