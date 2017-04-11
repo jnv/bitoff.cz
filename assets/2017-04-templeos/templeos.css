@@ -41,6 +41,7 @@ body {
   padding-left: 0.3rem;
   overflow: hidden;
   pointer-events: none;
+  box-sizing: border-box;
 }
 
 .js-topbar span {
