@@ -15,7 +15,7 @@ body {
 }
 
 .post {
-  font-family: 'Lucida Console', 'Consolas', monospace;
+  font-family: Menlo, Consolas, Monaco, 'Lucida Console', 'Ubuntu Mono', monospace;
 }
 
 .post-title,
