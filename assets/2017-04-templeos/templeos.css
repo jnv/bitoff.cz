@@ -178,7 +178,7 @@ hr.car::before {
 hr.monster::before {
   content: url('hr-monster.gif');
 }
-hr.car::before {
+hr.tank::before {
   content: url('hr-tank.gif');
 }
 
