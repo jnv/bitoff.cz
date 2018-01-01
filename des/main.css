@@ -67,10 +67,10 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1;
+  line-height: 1.2;
   margin-top: 0.1rem;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
-  color: #222222;
+  color: #222;
   font-weight: normal;
 }
 
@@ -407,9 +407,6 @@ img.figure {
   padding-bottom: 1em;
 }
 
-.post-title {
-  margin-bottom: 0;
-}
-.post-subtitle {
-  margin-bottom: 0;
+.post-title, .post-subtitle {
+  margin-bottom: 0.5rem;
 }
