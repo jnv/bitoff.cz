@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Stylesheet based on Typeplate by Dennis Gaebel (@gryghostvisuals) and Zachary Kain (@zakkain)
  * http://typeplate.com
@@ -7,13 +8,13 @@
  */
 
 html {
-  font: normal 100.1%/1.52381em sans-serif; /* base font size 16px with 1.65 line-height */
+  font: normal 112.5% / 1.65 sans-serif; /* base font size 16px with 1.65 line-height */
 }
 
 @media only screen and (min-width: 49em)
 {
   html {
-    font-size: 1.3125em;  /*shift up to 21px*/
+    font-size: 1.33333em;  /* ~ 24px */
   }
 }
 
@@ -65,35 +66,31 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2;
-  margin-top: 0.1rem;
-  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+  line-height: 1;
+  margin-top: 0;
+  text-rendering: optimizeLegibility;
   color: #222;
   font-weight: normal;
 }
 
 h1 {
-  font-size: 36px;
-  font-size: 2rem; /* 36 / 18 = 2 */
-  margin-bottom: 0.825em;
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
 }
 
 h2 {
-  font-size: 24px;
-  font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
-  margin-bottom: 1.2375em;
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
 }
 
 h3 {
-  font-size: 21px;
-  font-size: 1.16667rem; /* 21 / 18 = 1.1667 */
-  margin-bottom: 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
 }
 
 h4 {
-  font-size: 18px;
-  font-size: 1rem; /* 18 = 18 × 1 */
-  margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
 }
 
 /**************************
@@ -388,18 +385,16 @@ img.figure {
  * Pages
  ****************************/
 
-.post, .not-found {
-  padding-top: 2em;
+@media only screen and (min-height: 47em)
+{
+  .post, .not-found {
+    padding-top: 2em;
+  }
 }
-
 
 /****************************
  * Post
  ****************************/
-
-.post {
-  padding-top: 2em;
-}
 
 .post-header {
   padding-bottom: 1em;
