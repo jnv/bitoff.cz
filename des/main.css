@@ -403,3 +403,11 @@ img.figure {
 .post-title, .post-subtitle {
   margin-bottom: 0.5rem;
 }
+
+/****************************
+ * Footnotes
+ ****************************/
+
+.footnotes li:target {
+  background-color: #ff0;
+}
