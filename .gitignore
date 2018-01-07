@@ -1,9 +1,28 @@
-_site/
-vendor/
 bin/
 
-# Ignore hidden folders
-.*/
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
+
+### Ruby ###
+/.config
+/tmp/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# stay up to date
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+### More ###
 
 # Ignore OS generated files
 .DS_Store*
@@ -32,7 +51,3 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
-
-# Ignore Gemfile.lock
-# (stay with GH version)
-Gemfile.lock
