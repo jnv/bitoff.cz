@@ -39,17 +39,15 @@ a {
   color: #222;
   text-decoration: underline;
   text-decoration-skip: ink;
-}
-
-a:hover, a:active {
-  outline: 0;
+  text-decoration-color: #ccc;
 }
 
 a:visited {
   color: #555;
 }
 a:hover, a:focus {
-  color: #666;
+  color: #000;
+  text-decoration-color: inherit;
 }
 
 a.footnote, a.reversefootnote {
