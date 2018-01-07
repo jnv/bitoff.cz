@@ -6,8 +6,7 @@ The site is powered by [Jekyll](http://jekyllrb.com/) and [GitHub Pages](http://
 
 ## Development process
 
-    jekyll serve -w --safe --drafts
-    guard # for LiveReload
+    bundle exec jekyll serve -w -I --livereload --drafts
 
 ## Credit
 
