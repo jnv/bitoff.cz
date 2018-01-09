@@ -19,7 +19,10 @@ layout: default
     <div class="e-content post-content">
       {{ content }}
     </div>
+    {% if page.footer %}
     <footer class="post-footer">
+      {{ page.footer | markdownify }}
     </footer>
+    {% endif %}
   </article>
 </main>
