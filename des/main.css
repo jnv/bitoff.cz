@@ -347,10 +347,6 @@ img.figure {
   }
 }
 
-.meta {
-  color: #aaa;
-}
-
 .posts {
   list-style: none;
   padding-left: 0;
@@ -396,8 +392,8 @@ img.figure {
  * Post
  ****************************/
 
-.post-header {
-  padding-bottom: 1em;
+.post-meta {
+  color: #aaa;
 }
 
 .post-title, .post-subtitle {
