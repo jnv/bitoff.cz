@@ -70,7 +70,7 @@ To mě přivádí k Lindě Liukas -- jedné ze zakladatelek Rails Girls a autorc
 
 <figure class="full">
 <div class="embed">
-  <iframe width="640" height="480" src="https://www.kickstarter.com/projects/lindaliukas/hello-ruby/widget/video.html" frameborder="0" scrolling="no">
+  <iframe width="640" height="360" src="https://www.kickstarter.com/projects/lindaliukas/hello-ruby/widget/video.html" allowfullscreen>
   </iframe>
 </div>
 <figcaption>
