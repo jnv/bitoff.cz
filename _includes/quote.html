@@ -1,0 +1,14 @@
+<blockquote>
+
+{{include.quote}}
+
+{% if include.cite or include.footer -%}
+<footer>
+{% if include.cite %}
+<cite>{{ include.cite }}</cite>
+{%- else %}
+{{ include.footer }}
+{%- endif %}
+</footer>
+{%- endif %}
+</blockquote>

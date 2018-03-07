@@ -1,0 +1,8 @@
+{%- assign src = page.assets | append: "/" | append: include.src -%}
+{% if include.href or include.link -%}
+<a href="{{ include.url | default: src }}">
+{%- endif -%}
+<img src="{{src}}" alt="{{include.alt}}">
+{%- if include.href or include.link -%}
+</a>
+{%- endif %}
