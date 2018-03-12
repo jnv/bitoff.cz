@@ -315,22 +315,22 @@ img.figure {
   top: 0; left: 0;
 }
 
-/*blockquote footer cite:before {
-  content: "—";
-}*/
+@media (min-width: 35em) {
+  .figure-left, .figure-right {
+    max-width: 25%;
+  }
 
-/*.footnotes {
-  margin-top: 3em;
-}*/
+  .figure-left {
+    float: left;
+    margin: 0 1rem 0 0;
+  }
 
-.footnotes:before {
-  display: block;
-  content: " ";
-  width: 40%;
-  margin: 2em auto;
-  border-top: thin solid #aaa;
+  .figure-right {
+    float: right;
+    margin: 0 0 0 1rem;
+  }
+
 }
-
 /*****************************************************************************/
 /* Site
 /*****************************************************************************/
@@ -404,6 +404,31 @@ img.figure {
  * Footnotes
  ****************************/
 
+/*blockquote footer cite:before {
+  content: "—";
+}*/
+
+/*.footnotes {
+  margin-top: 3em;
+}*/
+
+.footnotes:before {
+  display: block;
+  content: " ";
+  width: 40%;
+  margin: 2em auto;
+  border-top: thin solid #aaa;
+}
+
 .footnotes li:target {
   background-color: #ff0;
 }
+
+/****************************
+ * Content specific
+ ****************************/
+
+.intro-note {
+  font-style: italic;
+}
+

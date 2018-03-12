@@ -1,0 +1,37 @@
+html {
+  font-size: 12pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  break-after: avoid;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: unset;
+  text-decoration-color: #333;
+}
+
+abbr, acronym {
+  text-decoration: none;
+}
+
+abbr[title]:after, acronym[title]:after {
+  content: " (" attr(title) ")";
+  font-size: 10pt;
+}
+
+figure {
+  break-inside: avoid-page;
+}
+
+.site {
+  max-width: unset;
+}
+
+.site-footer {
+  display: none;
+}

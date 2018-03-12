@@ -1,6 +1,10 @@
 {%- assign src = page.assets | append: "/" | append: include.src -%}
+{%- assign href = include.href %}
 {% if include.href or include.link -%}
-<a href="{{ include.url | default: src }}">
+  {%- unless include.link or href contains "//" -%}
+    {%- assign href = page.assets | append: "/" | append: include.href -%}
+  {%- endunless -%}
+  <a href="{{ href | default: src }}">
 {%- endif -%}
 <img src="{{src}}" alt="{{include.alt}}">
 {%- if include.href or include.link -%}
