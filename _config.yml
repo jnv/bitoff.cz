@@ -1,16 +1,16 @@
-name: bit off
+title: bit off
 url: https://www.bitoff.cz
 domain: www.bitoff.cz
 author: Jan Vlnas
 author_uri: https://jan.vlnas.cz/
-tag_uri: "tag:bitoff.cz,2014-03-10:"
+tag_uri: 'tag:bitoff.cz,2014-03-10:'
 exclude: [Gemfile, Gemfile.lock, Guardfile, README.md, vendor, bin]
 timezone: Europe/Prague
 
 permalink: :title/
 paginate_path: 'page:num'
 
-markdown:    kramdown
+markdown: kramdown
 kramdown:
   auto_ids: true
   entity_output: as_input
@@ -23,17 +23,15 @@ plugins:
   - jekyll-sitemap
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
       type: posts
     values:
       layout: post
       license: CC0-1.0
       license_url: http://creativecommons.org/publicdomain/zero/1.0/
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
       type: drafts
     values:
       layout: post
