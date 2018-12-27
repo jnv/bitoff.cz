@@ -11,13 +11,11 @@ html {
   font: normal 112.5% / 1.65 sans-serif; /* base font size 16px with 1.65 line-height */
 }
 
-@media only screen and (min-width: 49em)
-{
+@media only screen and (min-width: 49em) {
   html {
-    font-size: 1.33333em;  /* ~ 24px */
+    font-size: 1.33333em; /* ~ 24px */
   }
 }
-
 
 body {
   background-color: #fff;
@@ -46,15 +44,16 @@ a {
 a:visited {
   color: #555;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #000;
   text-decoration-color: inherit;
 }
 
-a.footnote, a.reversefootnote {
+a.footnote,
+a.reversefootnote {
   text-decoration: none;
 }
-
 
 /**************************
  Headings
@@ -112,7 +111,7 @@ xmp {
   /* Accepted values: [ none | manual | auto ] */ /* http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation */
   -webkit-hyphens: none; /* Safari 5.1 thru 6, iOS 4.2 thru 6 */
   -ms-hyphens: none; /* IE10 */
-  hyphens: none;   /* W3C standard */
+  hyphens: none; /* W3C standard */
 }
 
 /**************************
@@ -134,7 +133,6 @@ small {
   /*font-size: 75%;*/
   line-height: 1;
 }
-
 
 sub,
 sup {
@@ -161,7 +159,6 @@ q:after {
   content: close-quote;
 }
 
-
 p {
   margin: auto auto 1.5em; /* bottom margin for paragraphs */
 }
@@ -170,7 +167,6 @@ p {
   text-indent: 1.5em;
   margin-top: -1.5em;
 }*/
-
 
 pre code {
   word-wrap: normal;
@@ -196,7 +192,8 @@ ins {
  Block level stuff
  ******************/
 
-img, video {
+img,
+video {
   max-width: 100%;
 }
 
@@ -204,7 +201,8 @@ iframe {
   border: 0;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-position: outside;
   margin: 0.875em 0 1.75em;
   padding-left: 1em;
@@ -230,7 +228,8 @@ table {
   margin-bottom: 0.875em;
 }
 
-td, th {
+td,
+th {
   font-size: 1em;
   border: thin solid #999;
   text-align: left;
@@ -242,7 +241,8 @@ thead th {
 }
 
 @media only screen and (min-width: 35em) {
-  td, th {
+  td,
+  th {
     padding: 0.2em 0.3em;
   }
 }
@@ -267,7 +267,8 @@ figcaption {
 }
 
 @media only screen and (min-width: 35em) {
-  figure, blockquote {
+  figure,
+  blockquote {
     margin: 1.5em 2em;
   }
 }
@@ -309,14 +310,18 @@ img.figure {
   height: auto;
 }
 
-.embed iframe, .embed object {
-  width: 100%; height: 100%;
+.embed iframe,
+.embed object {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
 }
 
 @media (min-width: 35em) {
-  .figure-left, .figure-right {
+  .figure-left,
+  .figure-right {
     max-width: 25%;
   }
 
@@ -329,7 +334,6 @@ img.figure {
     float: right;
     margin: 0 0 0 1rem;
   }
-
 }
 /*****************************************************************************/
 /* Site
@@ -360,7 +364,6 @@ img.figure {
 .posts {
 }
 
-
 .site-footer {
   padding-top: 3em;
   text-transform: lowercase;
@@ -381,9 +384,9 @@ img.figure {
  * Pages
  ****************************/
 
-@media only screen and (min-height: 47em)
-{
-  .post, .not-found {
+@media only screen and (min-height: 47em) {
+  .post,
+  .not-found {
     padding-top: 2em;
   }
 }
@@ -396,7 +399,8 @@ img.figure {
   color: #aaa;
 }
 
-.post-title, .post-subtitle {
+.post-title,
+.post-subtitle {
   margin-bottom: 0.5rem;
 }
 
@@ -414,7 +418,7 @@ img.figure {
 
 .footnotes:before {
   display: block;
-  content: " ";
+  content: ' ';
   width: 40%;
   margin: 2em auto;
   border-top: thin solid #aaa;
@@ -431,4 +435,3 @@ img.figure {
 .intro-note {
   font-style: italic;
 }
-
