@@ -19,7 +19,7 @@ html {
 
 body {
   background-color: #fff;
-  color: #444;
+  color: #333;
 
   margin: 0;
   padding: 2em 1em 3em;
@@ -35,19 +35,8 @@ body {
  ************************/
 
 a {
-  color: #222;
   text-decoration: underline;
   text-decoration-skip: ink;
-  text-decoration-color: #ccc;
-}
-
-a:visited {
-  color: #555;
-}
-a:hover,
-a:focus {
-  color: #000;
-  text-decoration-color: inherit;
 }
 
 a.footnote,
@@ -372,12 +361,12 @@ img.figure {
 .site-footer a {
   margin-right: 2em;
   color: #aaa;
-  text-decoration: none;
 }
 
 .site-footer strong {
   color: #222;
   font-weight: normal;
+  text-decoration: underline;
 }
 
 /****************************
