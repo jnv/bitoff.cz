@@ -15,7 +15,7 @@ _site/
 /lib/bundler/man/
 
 # stay up to date
-Gemfile.lock
+gems.locked
 .ruby-version
 .ruby-gemset
 
