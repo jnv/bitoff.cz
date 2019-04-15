@@ -24,6 +24,11 @@ body {
   margin: 0;
   padding: 2em 1em 3em;
 
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
