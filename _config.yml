@@ -3,12 +3,12 @@ url: https://www.bitoff.cz
 domain: www.bitoff.cz
 author: Jan Vlnas
 author_uri: https://jan.vlnas.cz/
-tag_uri: 'tag:bitoff.cz,2014-03-10:'
-exclude: [Gemfile, Gemfile.lock, Guardfile, README.md, vendor, bin]
+tag_uri: "tag:bitoff.cz,2014-03-10:"
+exclude: [gems.rb, gems.locked, README.md, bin]
 timezone: Europe/Prague
 
 permalink: :title/
-paginate_path: 'page:num'
+paginate_path: "page:num"
 
 markdown: kramdown
 kramdown:
@@ -24,14 +24,14 @@ plugins:
 
 defaults:
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: post
       license: CC0-1.0
       license_url: http://creativecommons.org/publicdomain/zero/1.0/
   - scope:
-      path: ''
+      path: ""
       type: drafts
     values:
       layout: post
