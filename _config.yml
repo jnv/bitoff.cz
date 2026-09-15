@@ -1,14 +1,17 @@
 title: bit off
+# Was previously injected from the GitHub repo description by
+# jekyll-github-metadata (bundled with the github-pages gem); it feeds
+# the RSS channel <description>, so it is pinned here explicitly.
+description: Zápisky lehce mimo
 url: https://www.bitoff.cz
 domain: www.bitoff.cz
 author: Jan Vlnas
 author_uri: https://jan.vlnas.cz/
 tag_uri: "tag:bitoff.cz,2014-03-10:"
-exclude: [gems.rb, gems.locked, README.md, bin]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor, .github, .vscode]
 timezone: Europe/Prague
 
 permalink: :title/
-paginate_path: "page:num"
 
 markdown: kramdown
 kramdown:
@@ -23,6 +26,15 @@ plugins:
   - jekyll-sitemap
 
 defaults:
+  # Keep verification files and media out of sitemap.xml
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "pkte5b22e44d848.html"
+    values:
+      sitemap: false
   - scope:
       path: ""
       type: posts

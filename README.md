@@ -2,11 +2,17 @@
 
 This is the source code and the content of the [bit off blog](https://www.bitoff.cz).
 
-The site is powered by [Jekyll](http://jekyllrb.com/) and [GitHub Pages](http://pages.github.com/).
+The site is powered by [Jekyll](https://jekyllrb.com/) and published to
+[GitHub Pages](https://pages.github.com/).
 
 ## Development process
 
-    bundle exec jekyll serve -w -I --livereload --drafts
+Requires the Ruby version in `.ruby-version`.
+
+```
+bundle install
+bundle exec jekyll serve -w -I --livereload --drafts
+```
 
 ## Credit
 
